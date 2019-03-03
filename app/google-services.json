@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "436068194488",
+    "firebase_url": "https://huawei-blog-50af6.firebaseio.com",
+    "project_id": "huawei-blog-50af6",
+    "storage_bucket": "huawei-blog-50af6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436068194488:android:58ae3caa43357e70",
+        "android_client_info": {
+          "package_name": "app.huaweiblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436068194488-k0pmtrnuh9ilvsl852qpcc6b2s52phh5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJNU-jj0A0mbkacypFN7o4PCEibmLxs4c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436068194488:android:c3da9d084aa5db2e",
+        "android_client_info": {
+          "package_name": "app.huaweiblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436068194488-k0pmtrnuh9ilvsl852qpcc6b2s52phh5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJNU-jj0A0mbkacypFN7o4PCEibmLxs4c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

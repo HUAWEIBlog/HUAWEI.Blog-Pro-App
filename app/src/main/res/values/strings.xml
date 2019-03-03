@@ -1,0 +1,179 @@
+<resources>
+
+    <string name="appName">Huawei.Blog</string>
+
+    <string name="developer_email">dev@huaweiblog.de</string>
+    <string name="copyright">Copyright © 2019 Huawei.Blog. \nAll rights reserved</string>
+    <string name="heart">Gemacht mit ❤ in Düsseldorf</string>
+    <string name="dialog_about_title">Über Uns</string>
+    <string name="about_text">
+        <![CDATA[<p>2012 hat unser &lt;3 Projekt das Licht der Welt erblickt. 6 Jahre berichten wir jetzt schon &uuml;ber Themen rund um unseren Lieblingshersteller HUAWEI.<br />Wir sind kein offizieller HUAWEI Blog, sondern machen das ausschlie&szlig;lich aus Spa&szlig; an der Freude. Als Hobby, Zeitvertreib und weil wir alle technikinteressiert sind.<br />Rainer, der Gr&uuml;nder und Inhaber des Blogs hatte vor &uuml;ber 5 Jahren einen Bericht in der S&uuml;ddeutschen gelesen, in dem ein noch relativ unbekannter Richard Yu &uuml;ber die Ziele seines Unternehmens gesprochen hatte. Yu wolle innerhalb der n&auml;chsten Jahre unter die Top 3 der Smartphone Hersteller kommen und auf lange Sicht Samsung und Apple vom Thron sto&szlig;en.<br />Dieser ambitionierte Ansatz brachte Rainer dazu einen Blog aus der Taufe zu heben, der sich ausschlie&szlig;lich um Huawei drehen sollte. Was daraus wurde und dass es Richard Yu mit seinem Unternehmen aus Shenzhen China geschafft hatte, das seht ihr hier.</p>
+<p>Am HUAWEI.blog werkeln immer so um die 10 Leute mit. Von Anfang an dabei sind Marco und Rainer P. Die beiden haben mit Abstand die meisten Beitr&auml;ge f&uuml;r euch verfasst und beide kann man wohl als ausgewiesene HUAWEI Experten betiteln.<br />Langj&auml;hrige Mitglieder des Teams sind Ronny (der sich vor allem mit Themes auseinander setzt), Berit (eine Frau im Team braucht man(n) ;)) und Dominik (Tausendsassa, sowohl in CBG, als auch Enterprise).<br />Unser Sascha werkelt meist im Hintergrund an der technischen Umsetzung als Sys-Admin und auch als "Vater" dieser App. Ab und an kommen auch von ihm Beitr&auml;ge, dann meist rund um das Thema Enterprise, dem wir uns seit 2017 Jahr auch verst&auml;rkt widmen. HUAWEI ist ja schlie&szlig;lich auch in der Netzwerk Sparte gro&szlig; geworden.</p>]]>
+    </string>
+
+    <string name="sample_name">AppUser</string>
+    <string name="sample_email">fan-app@testmail.com</string>
+
+    <string name="activity_title_webview">Web View</string>
+    <string name="activity_title_settings">Einstellungen</string>
+    <string name="activity_title_send_comment">Kommentar absenden</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Toolbar menu string -->
+    <string name="default_notification_channel_id">Standard</string>
+    <string name="title_menu_settings">Einstellungen</string>
+    <string name="title_menu_rate">Bewerten</string>
+    <string name="title_menu_about">Über Uns</string>
+    <string name="title_menu_refresh">Neu laden</string>
+    <string name="title_menu_later">Später lesen</string>
+    <string name="title_menu_share">Artikel teilen</string>
+    <string name="title_menu_browser">Im Browser öffnen</string>
+    <string name="title_menu_tipps">Tipps &amp; Tricks</string>
+
+
+    <string name="webview_loading">Lade mehr... </string>
+
+    <!-- Youube string -->
+    <string name="search">Search</string>
+    <string name="failed">Failed to initialize Youtube Player</string>
+
+    <!--navigation title-->
+    <string name="title_nav_home">Home</string>
+    <string name="title_nav_category">Kategorien</string>
+    <string name="title_nav_page">Seiten</string>
+    <string name="title_nav_later">Später</string>
+    <string name="title_nav_setting">Einstellungen</string>
+    <string name="title_nav_rate">Bewerten</string>
+    <string name="title_nav_about">Über Uns</string>
+    <string name="title_nav_android">Software</string>
+    <string name="title_nav_devices">Smartphones</string>
+    <string name="title_nav_enterprise">Enterprise</string>
+    <string name="title_nav_youtube">Youtube</string>
+    <string name="sub_title_nav_others">Anderes</string>
+    <string name="sub_title_nav_fields">Bereiche</string>
+
+    <!-- Activity Setting : xml/setting_preference.xml -->
+    <string name="pref_group_profile">PROFIL</string>
+    <string name="pref_group_notif">BENACHRICHTIGUNG</string>
+    <string name="pref_group_others">ANDERES</string>
+    <string name="pref_title_name">Dein Name</string>
+    <string name="pref_title_email">Deine E-Mail</string>
+    <string name="pref_title_notif">Push Benachrichtigung</string>
+    <string name="pref_title_ringtone">Klingelton</string>
+    <string name="pref_title_vibrate">Vibration</string>
+    <string name="pref_title_copyright">Copyright</string>
+    <string name="pref_title_dev_email">Entwickler Kontakt</string>
+    <string name="pref_title_build">Build Version</string>
+    <string name="pref_title_term">Term &amp; Policies</string>
+    <string name="pref_title_heart">Gemacht mit ❤ in Düsseldorf</string>
+    <string name="default_your_name">AppUser</string>
+    <string name="default_your_email">fan-app@testmail.com</string>
+    <string name="grant_permission_storage">Speicherzugriff gewähren</string>
+
+    <!-- Other Strings -->
+    <string name="no_internet_text">Keine Internet Verbindung</string>
+    <string name="no_post">Kein Artikel</string>
+    <string name="no_page">Keine Seite</string>
+    <string name="no_category">Keine Kategorie</string>
+    <string name="no_post_found">Nicht gefunden</string>
+    <string name="failed_text">Daten konnten nicht geladen werden</string>
+    <string name="failed_text_comment">Fehler beim senden des Kommentar. Versuche es später erneut</string>
+    <string name="valid_text_comment">Dein Kommentar ist abgesendet worden</string>
+    <string name="no_inet_text_comment">Keine Internet Verbindung. Versuche es später erneut</string>
+    <string name="after_send_comment">Dein Kommentarstatus ist</string>
+    <string name="retry_txt">ERNEUT VERSUCHEN</string>
+    <string name="show_tv_comments">Kommentare</string>
+    <string name="send_tv_comments">Kommentieren</string>
+    <string name="send_tv_social">Teilen</string>
+    <string name="count_bt_comments"> Kommentare</string>
+    <string name="msg_search_input">Bitte die Suchmaske ausfüllen</string>
+    <string name="task_running_msg">Ops, die Anfrage läuft noch</string>
+    <string name="post_detail_displayed_msg">Artikel Details anzeigen</string>
+    <string name="page_detail_displayed_msg">Seiten Details anzeigen</string>
+    <string name="post_have_no_comment">Dieser Artikel hat keine Kommentare</string>
+    <string name="cannot_add_to_read_later">Kann den Artikel nicht zur Read Later Liste hinzufügen</string>
+    <string name="invalid_image_url">Fehlerhafte Bild-URL</string>
+    <string name="failed_when_open_image">Fehler beim öffnen des Bildes</string>
+    <string name="remove_from_msg">entfernen von</string>
+    <string name="added_to_msg">hinzufügen zu</string>
+    <string name="comments_bottom_message">
+        Dein Kommentar wird akzeptiert, wenn er nicht doppelt, mehrfach hintereinander, dem Thema entsprechend und keine Hetze aufweist. Vor der Freigabe wird jeder Kommentar kontrolliert.
+    </string>
+
+    <!--exit notification-->
+    <string name="press_again_exit_app">Zum Beenden noch einmal drücken. </string>
+
+
+    <string name="direct_to_browser_dialog_title">Bestätige das öffnen im Browser</string>
+    <string name="direct_to_browser_dialog_text">
+        Du musst angemeldet sein um einen Kommentar in der App zu schreiben.
+        \nWebseite im Browser öffnen?
+    </string>
+
+    <string name="invalid_name">Ungültiger Name</string>
+    <string name="invalid_email">Ungültige e-Mail</string>
+    <string name="invalid_comment">Ungültiger Kommentar</string>
+    <string name="bt_submit">ABSENDEN</string>
+    <string name="hint_input_name">Name</string>
+    <string name="hint_input_email">e-Mail</string>
+    <string name="hint_input_comment">Kommentar</string>
+
+    <!--GDPR property -->
+    <string name="publisher_id">pub-3239677...........</string>
+    <string name="privacy_policy_url">
+        https://www.huaweiblog.de/impressum/#datenschutz
+    </string>
+
+    <!--ADS UNIT ID  -->
+    <!--interstitial ad unit id. -->
+    <string name="interstitial_ad_unit_id"></string>
+    <!--banner ad unit id. ca-app-pub-3239677920600357/2323890961 -->
+    <string name="banner_ad_unit_id"></string>
+
+    <string name="content_heart">Vielen Dank, dass Du diese App unterstütz. Dies ist ein freundliches Hallo vom Vater dieser App. \n\nVerteilt diese App und denkt immer daran, gemacht mit ❤ in Düsseldorf.  </string>
+    <string name="content_term">
+        HuaweiBlog.de steht in keinem Zusammenhang mit der Huawei Technologies Co., Ltd..
+        \nWir betreiben hier einen Blog für Huawei Interessierte. Alle Aussagen und Feststellungen spiegeln ausschließlich die Meinung des Verfassers und nicht von Huawei Technologies Co., Ltd. wieder.
+        \nAlle auf den Seiten verwendeten Handelsmarken oder Markenzeichen sind Eigentum der jeweiligen Rechte-Inhaber.
+        \nThis is an Un-Official fan based Website. The views expressed on this website are solely those of the proprietor, or contributors to the site, and do not necessarily reflect the views or opinions of the parties it covers, and is not affiliated with, endorsed or sponsored by parties involved.
+        \n
+        \nImpressum
+        \nAngaben gemäß § 5 TMG:
+        \n
+        \nHuaweiblog – Rainer Fürst, Hofhamer Str. 71a, 83395 Freilassing
+        \n
+        \nUST ID: DE288611346
+        \n
+        \nKontakt:
+        \nTelefon: +49(0)179 1162398 (kein Service – keine Beratung – kein Support)
+        \nAllgemeine Anfragen: info [at]huaweiblog.de
+        \nFür Werbepartner: werbung [at]huaweiblog.de
+        \nPressemitteilungen: presse [at]huaweiblog.de
+        \n
+        \n
+        \nVerantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
+        \nJeder Autor, Redakteur und Freier Redakteur ist für seine Beiträge voll und ganz selbst verantwortlich!
+        \nIch distanziere mich ausdrücklich vom Inhalt der Autoren, Redakteure und Freien Redakteure und anderen Usern.
+        \nIch bin nicht verantwortlich für den Inhalt den die Autoren, Redakteure und Freien Redakteure und andere User erzeugen.
+        \n
+        \nHaftungsausschluss:
+        \nHaftung für Inhalte
+        \n
+        \nDie Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+        \n
+        \nHaftung für Links
+        \n
+        \nUnser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
+        \n
+        \nUrheberrecht
+        \n
+        \nDie durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden diefollow Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+        \n
+        \nQuellverweis: eRecht24 Disclaimer
+    </string>
+
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- if you want to filter category. please list down category id you want to hide here. -->
+    <!-- you can see id from this url http://your-web.com/?json=get_category_index-->
+    <string-array name="category_id_filter">
+        <!--<item>10</item>    -->
+        <!--<item>16</item>    -->
+    </string-array>
+
+    <!-- if you want to filter page. please list down page id you want to hide here. -->
+    <!-- you can see id from this url http://your-web.com/?json=get_page_index-->
+    <string-array name="page_id_filter">
+        <!--<item>10</item>    -->
+        <!--<item>16</item>    -->
+    </string-array>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e53232</color>
+    <color name="colorPrimaryDark">#B62929</color>
+    <color name="colorPrimaryLight">#e53232</color>
+
+    <color name="colorAccent">#e53232</color>
+    <color name="colorAccentLight">#e53232</color>
+    <color name="colorAccentDark">#B62929</color>
+
+    <color name="darkBackground">#303030</color>
+
+    <color name="overlay_dark">#73000000</color>
+
+    <color name="grey_dark">#37474F</color>
+    <color name="grey_hard">#96989A</color>
+    <color name="grey_medium">#BDBFC1</color>
+    <color name="grey_soft">#F5F5F5</color>
+
+    <color name="grey_bg">#E6E6E6</color>
+
+    <color name="red_color">#E53935</color>
+    <color name="green_color">#7CB342</color>
+    <color name="dark_soft_overlay">#80000000</color>
+
+    <color name="background_menu_title">#80000000</color>
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+
+    <color name="semi_transparent_black">#90000000</color>
+
+</resources>
