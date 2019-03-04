@@ -9,3 +9,5 @@
 /.gradle
 /.idea
 /captures
+/app/build/
+/app/release/
