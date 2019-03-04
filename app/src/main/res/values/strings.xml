@@ -8,7 +8,7 @@
     <string name="dialog_about_title">Über Uns</string>
     <string name="about_text">
         <![CDATA[<p>2012 hat unser &lt;3 Projekt das Licht der Welt erblickt. 6 Jahre berichten wir jetzt schon &uuml;ber Themen rund um unseren Lieblingshersteller HUAWEI.<br />Wir sind kein offizieller HUAWEI Blog, sondern machen das ausschlie&szlig;lich aus Spa&szlig; an der Freude. Als Hobby, Zeitvertreib und weil wir alle technikinteressiert sind.<br />Rainer, der Gr&uuml;nder und Inhaber des Blogs hatte vor &uuml;ber 5 Jahren einen Bericht in der S&uuml;ddeutschen gelesen, in dem ein noch relativ unbekannter Richard Yu &uuml;ber die Ziele seines Unternehmens gesprochen hatte. Yu wolle innerhalb der n&auml;chsten Jahre unter die Top 3 der Smartphone Hersteller kommen und auf lange Sicht Samsung und Apple vom Thron sto&szlig;en.<br />Dieser ambitionierte Ansatz brachte Rainer dazu einen Blog aus der Taufe zu heben, der sich ausschlie&szlig;lich um Huawei drehen sollte. Was daraus wurde und dass es Richard Yu mit seinem Unternehmen aus Shenzhen China geschafft hatte, das seht ihr hier.</p>
-<p>Am HUAWEI.blog werkeln immer so um die 10 Leute mit. Von Anfang an dabei sind Marco und Rainer P. Die beiden haben mit Abstand die meisten Beitr&auml;ge f&uuml;r euch verfasst und beide kann man wohl als ausgewiesene HUAWEI Experten betiteln.<br />Langj&auml;hrige Mitglieder des Teams sind Ronny (der sich vor allem mit Themes auseinander setzt), Berit (eine Frau im Team braucht man(n) ;)) und Dominik (Tausendsassa, sowohl in CBG, als auch Enterprise).<br />Unser Sascha werkelt meist im Hintergrund an der technischen Umsetzung als Sys-Admin und auch als "Vater" dieser App. Ab und an kommen auch von ihm Beitr&auml;ge, dann meist rund um das Thema Enterprise, dem wir uns seit 2017 Jahr auch verst&auml;rkt widmen. HUAWEI ist ja schlie&szlig;lich auch in der Netzwerk Sparte gro&szlig; geworden.</p>]]>
+<p>Am HUAWEI.blog werkeln immer so um die 10 Leute in ihrer Freizeit mit. Von Anfang an dabei sind Marco und Rainer P. Die beiden haben mit Abstand die meisten Beitr&auml;ge f&uuml;r euch verfasst und beide kann man wohl als ausgewiesene HUAWEI Experten betiteln.<br />Langj&auml;hrige Mitglieder des Teams sind Ronny (der sich vor allem mit Themes auseinander setzt), Berit (eine Frau im Team braucht man(n) ;)) und Dominik (Tausendsassa, sowohl in CBG, als auch Enterprise).<br />Unser Sascha werkelt meist im Hintergrund an der technischen Umsetzung als Sys-Admin und auch als "Vater" dieser App. Ab und an kommen auch von ihm Beitr&auml;ge, dann meist rund um das Thema Enterprise, dem wir uns seit 2017 Jahr auch verst&auml;rkt widmen. HUAWEI ist ja schlie&szlig;lich auch in der Netzwerk Sparte gro&szlig; geworden.</p>]]>
     </string>
 
     <string name="sample_name">AppUser</string>
@@ -132,12 +132,12 @@
     <!--banner ad unit id. ca-app-pub-3239677920600357/2323890961 -->
     <string name="banner_ad_unit_id"></string>
 
-    <string name="content_heart">Vielen Dank, dass Du diese App unterstütz. Dies ist ein freundliches Hallo vom Vater dieser App. \n\nVerteilt diese App und denkt immer daran, gemacht mit ❤ in Düsseldorf.  </string>
+    <string name="content_heart">Vielen Dank, dass Du diese App unterstützt. Dies ist ein freundliches Hallo vom Vater dieser App. \n\nVerteilt diese App und denkt immer daran, gemacht mit ❤ in Düsseldorf.  </string>
     <string name="content_term">
-        HuaweiBlog.de steht in keinem Zusammenhang mit der Huawei Technologies Co., Ltd..
-        \nWir betreiben hier einen Blog für Huawei Interessierte. Alle Aussagen und Feststellungen spiegeln ausschließlich die Meinung des Verfassers und nicht von Huawei Technologies Co., Ltd. wieder.
-        \nAlle auf den Seiten verwendeten Handelsmarken oder Markenzeichen sind Eigentum der jeweiligen Rechte-Inhaber.
-        \nThis is an Un-Official fan based Website. The views expressed on this website are solely those of the proprietor, or contributors to the site, and do not necessarily reflect the views or opinions of the parties it covers, and is not affiliated with, endorsed or sponsored by parties involved.
+        HuaweiBlog.de und auch diese App stehen in keinem Zusammenhang mit der Huawei Technologies Co., Ltd..
+        \nWir betreiben hier eine App für Huawei Interessierte. Alle Aussagen und Feststellungen spiegeln ausschließlich die Meinung des Verfassers und nicht von Huawei Technologies Co., Ltd. wieder.
+        \nAlle in der App verwendeten Handelsmarken oder Markenzeichen sind Eigentum der jeweiligen Rechte-Inhaber.
+        \nThis is an Un-Official fan based app. The views expressed at this app are solely those of the proprietor, or contributors to the app and do not necessarily reflect the views or opinions of the parties it covers, and is not affiliated with, endorsed or sponsored by parties involved.
         \n
         \nImpressum
         \nAngaben gemäß § 5 TMG:
