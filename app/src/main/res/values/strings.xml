@@ -8,7 +8,7 @@
     <string name="dialog_about_title">Über Uns</string>
     <string name="about_text">
         <![CDATA[<p>2012 hat unser &lt;3 Projekt das Licht der Welt erblickt. 6 Jahre berichten wir jetzt schon &uuml;ber Themen rund um unseren Lieblingshersteller HUAWEI.<br />Wir sind kein offizieller HUAWEI Blog, sondern machen das ausschlie&szlig;lich aus Spa&szlig; an der Freude. Als Hobby, Zeitvertreib und weil wir alle technikinteressiert sind.<br />Rainer, der Gr&uuml;nder und Inhaber des Blogs hatte vor &uuml;ber 5 Jahren einen Bericht in der S&uuml;ddeutschen gelesen, in dem ein noch relativ unbekannter Richard Yu &uuml;ber die Ziele seines Unternehmens gesprochen hatte. Yu wolle innerhalb der n&auml;chsten Jahre unter die Top 3 der Smartphone Hersteller kommen und auf lange Sicht Samsung und Apple vom Thron sto&szlig;en.<br />Dieser ambitionierte Ansatz brachte Rainer dazu einen Blog aus der Taufe zu heben, der sich ausschlie&szlig;lich um Huawei drehen sollte. Was daraus wurde und dass es Richard Yu mit seinem Unternehmen aus Shenzhen China geschafft hatte, das seht ihr hier.</p>
-<p>Am HUAWEI.blog werkeln immer so um die 10 Leute in ihrer Freizeit mit. Von Anfang an dabei sind Marco und Rainer P. Die beiden haben mit Abstand die meisten Beitr&auml;ge f&uuml;r euch verfasst und beide kann man wohl als ausgewiesene HUAWEI Experten betiteln.<br />Langj&auml;hrige Mitglieder des Teams sind Ronny (der sich vor allem mit Themes auseinander setzt), Berit (eine Frau im Team braucht man(n) ;)) und Dominik (Tausendsassa, sowohl in CBG, als auch Enterprise).<br />Unser Sascha werkelt meist im Hintergrund an der technischen Umsetzung als Sys-Admin und auch als "Vater" dieser App. Ab und an kommen auch von ihm Beitr&auml;ge, dann meist rund um das Thema Enterprise, dem wir uns seit 2017 Jahr auch verst&auml;rkt widmen. HUAWEI ist ja schlie&szlig;lich auch in der Netzwerk Sparte gro&szlig; geworden.</p>]]>
+<p>Am HUAWEI.blog werkeln immer so um die 10 Leute in ihrer Freizeit mit. Von Anfang an dabei sind Marco und Rainer P. Die beiden haben mit Abstand die meisten Beitr&auml;ge f&uuml;r euch verfasst und beide kann man wohl als ausgewiesene HUAWEI Experten betiteln.<br />Langj&auml;hrige Mitglieder des Teams sind Ronny (der sich vor allem mit Themes auseinander setzt), Berit (eine Frau im Team braucht man(n) ;)) und Dominik (Tausendsassa, sowohl in CBG, als auch Enterprise).<br />Unser Sascha werkelt meist im Hintergrund an der technischen Umsetzung als Sys-Admin und auch als "Vater" an dieser App. Ab und an kommen auch von ihm Beitr&auml;ge, dann meist rund um das Thema Enterprise, dem wir uns seit 2017 Jahr auch verst&auml;rkt widmen. HUAWEI ist ja schlie&szlig;lich in der Netzwerk Sparte gro&szlig; geworden.</p>]]>
     </string>
 
     <string name="sample_name">AppUser</string>
@@ -35,9 +35,9 @@
 
     <string name="webview_loading">Lade mehr... </string>
 
-    <!-- Youube string -->
-    <string name="search">Search</string>
-    <string name="failed">Failed to initialize Youtube Player</string>
+    <!-- Youtube string -->
+    <string name="search">Suche</string>
+    <string name="failed">Initialisierung von Youtube schlug leider fehl!</string>
 
     <!--navigation title-->
     <string name="title_nav_home">Home</string>
@@ -73,15 +73,15 @@
     <string name="grant_permission_storage">Speicherzugriff gewähren</string>
 
     <!-- Other Strings -->
-    <string name="no_internet_text">Keine Internet Verbindung</string>
+    <string name="no_internet_text">Keine Internet Verbindung.</string>
     <string name="no_post">Kein Artikel</string>
     <string name="no_page">Keine Seite</string>
     <string name="no_category">Keine Kategorie</string>
     <string name="no_post_found">Nicht gefunden</string>
-    <string name="failed_text">Daten konnten nicht geladen werden</string>
-    <string name="failed_text_comment">Fehler beim senden des Kommentar. Versuche es später erneut</string>
-    <string name="valid_text_comment">Dein Kommentar ist abgesendet worden</string>
-    <string name="no_inet_text_comment">Keine Internet Verbindung. Versuche es später erneut</string>
+    <string name="failed_text">Daten konnten nicht geladen werden.</string>
+    <string name="failed_text_comment">Fehler beim Senden des Kommentars. Versuche es bitte später erneut.</string>
+    <string name="valid_text_comment">Dein Kommentar ist abgesendet worden.</string>
+    <string name="no_inet_text_comment">Keine Internet Verbindung. Versuche es später erneut.</string>
     <string name="after_send_comment">Dein Kommentarstatus ist</string>
     <string name="retry_txt">ERNEUT VERSUCHEN</string>
     <string name="show_tv_comments">Kommentare</string>
@@ -90,25 +90,25 @@
     <string name="count_bt_comments"> Kommentare</string>
     <string name="msg_search_input">Bitte die Suchmaske ausfüllen</string>
     <string name="task_running_msg">Ops, die Anfrage läuft noch</string>
-    <string name="post_detail_displayed_msg">Artikel Details anzeigen</string>
-    <string name="page_detail_displayed_msg">Seiten Details anzeigen</string>
-    <string name="post_have_no_comment">Dieser Artikel hat keine Kommentare</string>
-    <string name="cannot_add_to_read_later">Kann den Artikel nicht zur Read Later Liste hinzufügen</string>
+    <string name="post_detail_displayed_msg">Artikeldetails anzeigen</string>
+    <string name="page_detail_displayed_msg">Seitendetails anzeigen</string>
+    <string name="post_have_no_comment">Dieser Artikel hat keine Kommentare.</string>
+    <string name="cannot_add_to_read_later">Kann den Artikel nicht zur Read Later Liste hinzufügen.</string>
     <string name="invalid_image_url">Fehlerhafte Bild-URL</string>
-    <string name="failed_when_open_image">Fehler beim öffnen des Bildes</string>
+    <string name="failed_when_open_image">Fehler beim Öffnen des Bildes.</string>
     <string name="remove_from_msg">entfernen von</string>
     <string name="added_to_msg">hinzufügen zu</string>
     <string name="comments_bottom_message">
-        Dein Kommentar wird akzeptiert, wenn er nicht doppelt, mehrfach hintereinander, dem Thema entsprechend und keine Hetze aufweist. Vor der Freigabe wird jeder Kommentar kontrolliert.
+        Dein Kommentar wird akzeptiert, wenn er nicht doppelt, mehrfach hintereinander, dem Thema entsprechend und keine Hetze aufweist. Vor der Freigabe wird jeder Kommentar moderiert.
     </string>
 
     <!--exit notification-->
-    <string name="press_again_exit_app">Zum Beenden noch einmal drücken. </string>
+    <string name="press_again_exit_app">Zum Beenden noch einmal drücken.</string>
 
 
-    <string name="direct_to_browser_dialog_title">Bestätige das öffnen im Browser</string>
+    <string name="direct_to_browser_dialog_title">Bestätige das öffnen im Browser.</string>
     <string name="direct_to_browser_dialog_text">
-        Du musst angemeldet sein um einen Kommentar in der App zu schreiben.
+        Du musst angemeldet sein, um einen Kommentar in der App zu schreiben.
         \nWebseite im Browser öffnen?
     </string>
 
@@ -132,7 +132,7 @@
     <!--banner ad unit id. ca-app-pub-3239677920600357/2323890961 -->
     <string name="banner_ad_unit_id"></string>
 
-    <string name="content_heart">Vielen Dank, dass Du diese App unterstützt. Dies ist ein freundliches Hallo vom Vater dieser App. \n\nVerteilt diese App und denkt immer daran, gemacht mit ❤ in Düsseldorf.  </string>
+    <string name="content_heart">Vielen Dank, dass Du diese App unterstützt. Dies ist ein freundliches Hallo vom Vater dieser App. \n\nTeilt diese App und denkt immer daran, gemacht mit ❤ in Düsseldorf.  </string>
     <string name="content_term">
         HuaweiBlog.de und auch diese App stehen in keinem Zusammenhang mit der Huawei Technologies Co., Ltd..
         \nWir betreiben hier eine App für Huawei Interessierte. Alle Aussagen und Feststellungen spiegeln ausschließlich die Meinung des Verfassers und nicht von Huawei Technologies Co., Ltd. wieder.
