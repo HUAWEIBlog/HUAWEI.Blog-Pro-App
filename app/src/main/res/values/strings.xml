@@ -69,7 +69,7 @@
     <string name="pref_title_term">Term &amp; Policies</string>
     <string name="pref_title_heart">Gemacht mit ❤ in Düsseldorf</string>
     <string name="pref_title_dsgvo">Ich stimme der DSGVO zu</string>
-    <string name="pref_title_dsgvo_text">Wenn der Haken gesetzt ist, stimme ich der Übermittlung von Personenbezogenen Daten inkl Analytics Daten zu - wenn der Haken nicht gesetzt ist, kann ich den Privat Modus aktivieren, habe aber weniger Features wie zB. keine Kommentar Funktion</string>
+    <string name="pref_title_dsgvo_text">Wenn der Haken gesetzt ist, stimme ich der Übermittlung von Personenbezogenen Daten inkl Analytics Daten zu. Wenn der Haken nicht gesetzt ist, kann ich den Privat Modus aktivieren, habe aber weniger Features wie zB. keine Kommentar Funktion.</string>
     <string name="default_your_name">AppUser</string>
     <string name="default_your_email">fan-app@testmail.com</string>
     <string name="grant_permission_storage">Speicherzugriff gewähren</string>
