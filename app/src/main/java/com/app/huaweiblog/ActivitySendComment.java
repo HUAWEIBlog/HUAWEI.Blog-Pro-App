@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.text.TextUtils;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
@@ -69,6 +70,10 @@ public class ActivitySendComment extends AppCompatActivity {
         et_name.setText(sharedPref.getYourName());
         et_email.setText(sharedPref.getYourEmail());
 
+        if (sharedPref.getDSGVO()) {
+            showMessageLayout( true, false, true, getString( R.string.no_dsgvo_comment ) );
+        }
+
         bt_submit_comment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -115,14 +120,14 @@ public class ActivitySendComment extends AppCompatActivity {
                 task_running = false;
 
                 CallbackComment resp = response.body();
-                //if (resp != null) {
+                if (!sharedPref.getDSGVO()) {
                     setEnableEditText(true);
                     String str_msg = getString(R.string.after_send_comment) + " in Bearbeitung" ;
-                    showMessageLayout(true, false, str_msg);
+                    showMessageLayout(true, false, false, str_msg);
                     et_comment.setText("");
-                //} else {
-                //    onFailRequest();
-                //}
+                } else {
+                    onFailRequest(true);
+                }
             }
 
             @Override
@@ -131,27 +136,18 @@ public class ActivitySendComment extends AppCompatActivity {
                     bt_submit_comment.setVisibility(View.VISIBLE);
                     setEnableEditText(true);
                     task_running = false;
-                    onFailRequest();
+                    onFailRequest(false);
                 }
             }
 
         });
     }
 
-    private void onFailRequest() {
-        setEnableEditText(true);
-        if (NetworkCheck.isConnect(this)) {
-            showMessageLayout(true, true, getString(R.string.failed_text_comment));
-        } else {
-            showMessageLayout(true, true, getString(R.string.no_inet_text_comment));
-        }
-    }
-
     /**
      * Validating form
      */
     private void validateAllField() {
-        showMessageLayout(false, false, "");
+        showMessageLayout(false, false, false, "");
         input_et_name.setEnabled(false);
         input_et_email.setEnabled(false);
         input_et_comment.setEnabled(false);
@@ -160,12 +156,36 @@ public class ActivitySendComment extends AppCompatActivity {
         if (!validateComment()) return;
         hideKeyboard();
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                submitCommentToApi();
-            }
-        }, Constant.DELAY_TIME_MEDIUM);
+
+        if (!sharedPref.getDSGVO()) {
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    submitCommentToApi();
+                }
+            }, Constant.DELAY_TIME_MEDIUM);
+        } else {
+            onFailRequest(true);
+        }
+    }
+
+    private void onFailRequest(Boolean value) {
+        setEnableEditText(true);
+        /*if (NetworkCheck.isConnect(this)) {
+            showMessageLayout(true, true, getString(R.string.failed_text_comment));
+        } else */
+
+        if (value) {
+            showMessageLayout(true, false, true, getString(R.string.no_dsgvo_comment));
+        } else {
+            String str_msg = getString(R.string.after_send_comment) + " in Bearbeitung" ;
+            showMessageLayout(true, false, false, str_msg);
+            et_comment.setText("");
+        }
+
+        /*else {
+            showMessageLayout(true, true, false, getString(R.string.no_inet_text_comment));
+        }*/
     }
 
     private boolean validateName() {
@@ -219,11 +239,12 @@ public class ActivitySendComment extends AppCompatActivity {
         et_comment.setEnabled(flag);
     }
 
-    private void showMessageLayout(boolean visible, boolean isError, String msg) {
+    private void showMessageLayout(boolean visible, boolean isError, boolean isWarning, String msg) {
         tv_message.setText(msg);
         tv_message.setVisibility(View.GONE);
         tv_message.setBackgroundColor(getResources().getColor(R.color.green_color));
         if (visible) tv_message.setVisibility(View.VISIBLE);
+        if (isWarning) tv_message.setBackgroundColor(getResources().getColor(R.color.orange_color));
         if (isError) tv_message.setBackgroundColor(getResources().getColor(R.color.red_color));
     }
 

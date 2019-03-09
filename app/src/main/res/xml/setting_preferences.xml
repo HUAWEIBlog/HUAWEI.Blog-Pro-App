@@ -18,11 +18,9 @@
             android:title="@string/pref_title_email" />
 
         <SwitchPreference
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:key="@string/pref_title_dsgvo"
-            android:title="@string/pref_title_dsgvo" />
-
-        <Preference
+            android:title="@string/pref_title_dsgvo"
             android:summary="@string/pref_title_dsgvo_text"/>
 
     </PreferenceCategory>

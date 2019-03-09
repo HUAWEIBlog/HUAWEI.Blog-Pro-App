@@ -83,6 +83,7 @@
     <string name="failed_text">Daten konnten nicht geladen werden.</string>
     <string name="failed_text_comment">Fehler beim Senden des Kommentars. Versuche es bitte später erneut.</string>
     <string name="valid_text_comment">Dein Kommentar ist abgesendet worden.</string>
+    <string name="no_dsgvo_comment">Privater Modus aktiv!</string>
     <string name="no_inet_text_comment">Keine Internet Verbindung. Versuche es später erneut.</string>
     <string name="after_send_comment">Dein Kommentarstatus ist</string>
     <string name="retry_txt">ERNEUT VERSUCHEN</string>
@@ -101,7 +102,7 @@
     <string name="remove_from_msg">entfernen von</string>
     <string name="added_to_msg">hinzufügen zu</string>
     <string name="comments_bottom_message">
-        Dein Kommentar wird akzeptiert, wenn er nicht doppelt, mehrfach hintereinander, dem Thema entsprechend und keine Hetze aufweist. Vor der Freigabe wird jeder Kommentar moderiert.
+        Dein Kommentar wird akzeptiert, wenn er nicht doppelt, mehrfach hintereinander, dem Thema entsprechend ist.
     </string>
 
     <!--exit notification-->

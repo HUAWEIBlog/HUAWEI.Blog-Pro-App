@@ -1,6 +1,7 @@
 package com.app.huaweiblog;
 
 import android.app.Activity;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -8,7 +9,10 @@ import android.preference.EditTextPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
+import android.preference.PreferenceManager;
 import android.preference.PreferenceScreen;
+import android.preference.SwitchPreference;
+import android.preference.TwoStatePreference;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
@@ -17,11 +21,15 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatDelegate;
 import android.support.v7.widget.Toolbar;
 import android.text.Html;
+import android.util.Log;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Toast;
+import android.widget.ToggleButton;
 
 import com.app.huaweiblog.data.AppConfig;
 import com.app.huaweiblog.data.SharedPref;
@@ -53,7 +61,6 @@ public class ActivitySettings extends PreferenceActivity {
         final EditTextPreference prefEmail = (EditTextPreference) findPreference(getString(R.string.pref_title_email));
         final Preference prefTerm = (Preference) findPreference(getString(R.string.pref_title_term));
         final Preference prefHeart = (Preference) findPreference(getString(R.string.pref_title_heart));
-
 
         final PreferenceCategory categoryGroupProfile = (PreferenceCategory) findPreference(getString(R.string.pref_group_profile));
         if(AppConfig.HIDE_PROFILE_SETTINGS){
