@@ -3,6 +3,8 @@ package com.app.huaweiblog.connection;
 
 import com.app.huaweiblog.connection.callbacks.CallbackCategories;
 import com.app.huaweiblog.connection.callbacks.CallbackCategoryDetails;
+import com.app.huaweiblog.connection.callbacks.CallbackTags;
+import com.app.huaweiblog.connection.callbacks.CallbackTagsDetails;
 import com.app.huaweiblog.connection.callbacks.CallbackComment;
 import com.app.huaweiblog.connection.callbacks.CallbackDetailsPage;
 import com.app.huaweiblog.connection.callbacks.CallbackDetailsPost;
@@ -80,6 +82,20 @@ public interface API {
             @Query("name") String name,
             @Query("email") String email,
             @Query("content") String content
+    );
+
+    /* Tags API transaction --------------------------- */
+
+    @Headers({"Cache-Control: max-age=0", "User-Agent: "+USER_AGENT})
+    @GET("?json=get_tag_index")
+    Call<CallbackTags> getAllTags();
+
+    @Headers({"Cache-Control: max-age=0", "User-Agent: "+USER_AGENT})
+    @GET("?json=get_tag_posts" + EXCLUDE_FIELD)
+    Call<CallbackTagsDetails> getTagDetailsByPage(
+            @Query("id") String id,
+            @Query("page") long page,
+            @Query("count") long count
     );
 
     /* Page API transaction --------------------------- */

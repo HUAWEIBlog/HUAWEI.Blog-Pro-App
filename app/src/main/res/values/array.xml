@@ -15,4 +15,76 @@
         <!--<item>16</item>    -->
     </string-array>
 
+    <string-array name="settings_list_devices_titles">
+        <item>P30 Pro</item>
+        <item>P30</item>
+        <item>P30 Lite</item>
+        <item>Y7 (2019)</item>
+        <item>Mate X</item>
+        <item>Mate20 X</item>
+        <item>Mate RS Porsche Design</item>
+        <item>Mate20 Pro</item>
+        <item>Mate20</item>
+        <item>Mate20 Lite</item>
+        <item>Y6 (2018)</item>
+        <item>Y5 (2018)</item>
+        <item>P20 Pro</item>
+        <item>P20</item>
+        <item>P20 Lite</item>
+        <item>Mate10 Porsche Design</item>
+        <item>Mate10 Pro</item>
+        <item>Mate10</item>
+        <item>Mate10 Lite</item>
+        <item>P Smart</item>
+        <item>P10 Pro</item>
+        <item>P10</item>
+        <item>P10 Lite</item>
+        <item>Mate9 Porsche Design</item>
+        <item>Mate9 Pro</item>
+        <item>Mate9</item>
+        <item>Mate9 Lite</item>
+        <item>Nova 2</item>
+        <item>Mate8</item>
+        <item>P9 Plus</item>
+        <item>P9</item>
+        <item>P9 Lite</item>
+        <item>Mate S</item>
+
+    </string-array>
+    <string-array name="settings_list_devices_values">
+        <item>2407</item> <!-- P30 Pro -->
+        <item>2408</item> <!-- P30 -->
+        <item>2442</item> <!-- P30 Lite-->
+        <item>2467</item> <!-- Y7 (2019)-->
+        <item>2376</item> <!-- Mate X-->
+        <item>2395</item> <!-- Mate20 X -->
+        <item>2323</item> <!-- Mate20 RS Porsche -->
+        <item>2194</item> <!-- Mate20 Pro -->
+        <item>2350</item> <!-- Mate20 -->
+        <item>2197</item> <!-- Mate20 Lite -->
+        <item>2274</item> <!-- Y6 (2018)-->
+        <item>2244</item> <!-- Y5 (2018)-->
+        <item>2239</item> <!-- P20 Pro -->
+        <item>2187</item> <!-- P20 -->
+        <item>2195</item> <!-- P20 Lite -->
+        <item>2172</item> <!-- Mate10 Porsche Design -->
+        <item>2157</item> <!-- Mate10 Pro -->
+        <item>2094</item> <!-- Mate10 -->
+        <item>2153</item> <!-- Mate10 Lite -->
+        <item>2200</item> <!-- P Smart -->
+        <item>2051</item> <!-- P10 Plus -->
+        <item>1993</item> <!-- P10 -->
+        <item>2046</item> <!-- P10 Lite -->
+        <item>2019</item> <!-- Mate9 Porsche Design -->
+        <item>1994</item> <!-- Mate9 Pro -->
+        <item>1760</item> <!-- Mate9 -->
+        <item>2001</item> <!-- Mate9 Lite -->
+        <item>2085</item> <!-- Nova 2 -->
+        <item>1707</item> <!-- Mate8 -->
+        <item>1754</item> <!-- P9 Plus -->
+        <item>1294</item> <!-- P9 -->
+        <item>1672</item> <!-- P9 Lite -->
+        <item>1360</item> <!-- Mate S -->
+    </string-array>
+
 </resources>

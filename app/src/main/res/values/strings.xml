@@ -51,6 +51,7 @@
     <string name="title_nav_devices">Smartphones</string>
     <string name="title_nav_enterprise">Enterprise</string>
     <string name="title_nav_youtube">Youtube</string>
+    <string name="title_nav_preferences">Lieblingsgerät</string>
     <string name="sub_title_nav_others">Anderes</string>
     <string name="sub_title_nav_fields">Bereiche</string>
 
@@ -104,6 +105,13 @@
     <string name="comments_bottom_message">
         Dein Kommentar wird akzeptiert, wenn er nicht doppelt, mehrfach hintereinander, dem Thema entsprechend ist.
     </string>
+
+    <!-- Device Array -->
+    <string name="settings_device_dialog_title">Geräteauswahl</string>
+    <string name="settings_device_summary">Klicken zum wählen</string>
+    <string name="settings_device_title">Lieblingsgerät</string>
+
+
 
     <!--exit notification-->
     <string name="press_again_exit_app">Zum Beenden noch einmal drücken.</string>
