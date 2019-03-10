@@ -70,6 +70,7 @@
         <activity android:name="com.app.huaweiblog.ActivityCategoryDevicesDetails" />
         <activity android:name="com.app.huaweiblog.ActivityCategorySoftwareDetails" />
         <activity android:name="com.app.huaweiblog.ActivityCategoryEnterpriseDetails" />
+        <activity android:name="com.app.huaweiblog.ActivityCategoryPreferences" />
         <activity android:name="com.app.huaweiblog.ActivityCategoryTippsDetails" />
         <activity
             android:name="com.app.huaweiblog.ActivitySettings"

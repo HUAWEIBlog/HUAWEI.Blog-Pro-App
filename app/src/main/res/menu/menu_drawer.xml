@@ -15,6 +15,10 @@
             android:id="@+id/nav_later"
             android:icon="@drawable/ic_nav_later"
             android:title="@string/title_nav_later" />
+        <item
+            android:id="@+id/nav_smartphone_preference"
+            android:icon="@drawable/ic_nav_devices"
+            android:title="@string/title_nav_preferences" />
     </group>
 
     <item android:title="@string/sub_title_nav_fields">

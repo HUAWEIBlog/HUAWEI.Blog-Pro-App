@@ -15,4 +15,44 @@
         <!--<item>16</item>    -->
     </string-array>
 
+    <string-array name="settings_list_devices_titles">
+        <item>P30 Pro</item>
+        <item>P30</item>
+        <item>P30 LITE</item>
+        <item>Mate20 X</item>
+        <item>Mate20 RS Porsche Design</item>
+        <item>Mate20 Pro</item>
+        <item>Mate20</item>
+        <item>Mate20 Lite</item>
+        <item>P20 Pro</item>
+        <item>P20</item>
+        <item>P20 Lite</item>
+        <item>Mate10 Pro</item>
+        <item>Mate10</item>
+        <item>Mate10 Lite</item>
+        <item>P10 Pro</item>
+        <item>P10</item>
+        <item>P10 Lite</item>
+
+    </string-array>
+    <string-array name="settings_list_devices_values">
+        <item>2407</item> <!-- P30 Pro -->
+        <item>2408</item> <!-- P30 -->
+        <item>2442</item> <!-- P30 Lite-->
+        <item>2395</item> <!-- Mate20 X -->
+        <item>2323</item> <!-- Mate20 RS Porsche -->
+        <item>2194</item> <!-- Mate20 Pro -->
+        <item>2350</item> <!-- Mate20 -->
+        <item>2197</item> <!-- Mate20 Lite -->
+        <item>2407</item> <!-- P20 Pro -->
+        <item>2407</item> <!-- P20 -->
+        <item>2407</item> <!-- P20 Lite -->
+        <item>2407</item> <!-- Mate10 Pro -->
+        <item>2407</item> <!-- Mate10 -->
+        <item>2407</item> <!-- Mate10 Lite -->
+        <item>2407</item> <!-- P10 Plus -->
+        <item>2407</item> <!-- P10 -->
+        <item>2407</item> <!-- P10 Lite -->
+    </string-array>
+
 </resources>

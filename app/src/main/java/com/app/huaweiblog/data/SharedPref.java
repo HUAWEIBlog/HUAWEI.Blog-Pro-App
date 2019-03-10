@@ -81,6 +81,12 @@ public class SharedPref {
         return default_prefence.getString(str(R.string.pref_title_email), str(R.string.default_your_email));
     }
 
+    public String getSmartphone() {
+        
+        return default_prefence.getString("listDevices","2407");
+
+    }
+
     public boolean getDSGVO(){
         return default_prefence.getBoolean(str(R.string.pref_title_dsgvo), true);
     }

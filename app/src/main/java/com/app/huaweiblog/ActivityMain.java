@@ -189,6 +189,10 @@ public class ActivityMain extends AppCompatActivity {
                 Intent intent_a = new Intent(this, ActivityCategorySoftwareDetails.class);
                 startActivity(intent_a);
                 break;
+            case R.id.nav_smartphone_preference:
+                Intent intent_s = new Intent(this, ActivityCategoryPreferences.class);
+                startActivity(intent_s);
+                break;
             case R.id.nav_enterprise:
                 Intent intent_e = new Intent(this, ActivityCategoryEnterpriseDetails.class);
                 startActivity(intent_e);
