@@ -209,6 +209,8 @@ public class ActivityPostDetails extends AppCompatActivity {
                 "<script type='text/javascript' src='https://www.huaweiblog.de/wp-content/plugins/live-blogging-plus/live-blogging.min.js?ver=5.0.3'></script>" +
                 "<script type='text/javascript' src='https://www.huaweiblog.de/wp-content/themes/smart-mag/js/jquery.prettyPhoto.js?ver=5.0.3'></script>" +
                 "<script type='text/javascript' src='https://www.huaweiblog.de/wp-content/plugins/ultimate-responsive-image-slider/js/jquery.sliderPro.js?ver=1.4.0'></script>" +
+                "<script type=\"text/javascript\" src=\"https://www.huaweiblog.de/wp-content/plugins/aawp/public/assets/js/scripts.min.js?ver=3.8.9\"></script>" +
+                "<link rel=\"stylesheet\" id=\"aawp-css\" href=\"https://www.huaweiblog.de/wp-content/plugins/aawp/public/assets/css/styles.min.css?ver=3.8.9\" type=\"text/css\" media=\"all\">" +
                 "<link rel='stylesheet' id='smartmag-core-css'  href='https://www.huaweiblog.de/wp-content/themes/smart-mag-child/style.css?ver=2.6.2' type='text/css' media='all' />" +
                 "<link rel='stylesheet' id='smartmag-responsive-css'  href='https://www.huaweiblog.de/wp-content/themes/smart-mag/css/responsive.css?ver=2.6.2' type='text/css' media='all' />" +
                 "<link rel='stylesheet' id='pretty-photo-css'  href='https://www.huaweiblog.de/wp-content/themes/smart-mag/css/prettyPhoto.css?ver=2.6.2' type='text/css' media='all' />" +
