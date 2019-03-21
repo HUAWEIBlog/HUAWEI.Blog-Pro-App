@@ -30,7 +30,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:id="@+id/rl_Container"
-        tools:context="com.app.huaweiblog.plus.ActivityYouTubePlayer">
+        tools:context="com.app.huaweiblogplus.plus.ActivityYouTubePlayer">
 
 
         <fragment

@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:436068194488:android:58ae3caa43357e70",
         "android_client_info": {
-          "package_name": "app.huaweiblog.plus"
+          "package_name": "app.huaweiblogplus"
         }
       },
       "oauth_client": [
@@ -41,7 +41,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:436068194488:android:c3da9d084aa5db2e",
         "android_client_info": {
-          "package_name": "app.huaweiblog.plus"
+          "package_name": "app.huaweiblogplus"
         }
       },
       "oauth_client": [
