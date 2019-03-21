@@ -21,9 +21,10 @@
         android:paddingTop="@dimen/activity_vertical_margin">
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="60dp"
-            android:background="@drawable/ic_account_huaweiblog2" />
+            android:paddingTop="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/splash_icon_huaweiblog2" />
 
         <TextView
             android:id="@+id/user_name"
