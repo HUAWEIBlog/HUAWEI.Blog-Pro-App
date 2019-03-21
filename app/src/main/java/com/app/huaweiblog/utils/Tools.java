@@ -1,4 +1,4 @@
-package com.app.huaweiblog.utils;
+package com.app.huaweiblog.plus.utils;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -27,20 +27,20 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.app.huaweiblog.ActivityWebView;
-import com.app.huaweiblog.R;
-import com.app.huaweiblog.connection.API;
-import com.app.huaweiblog.connection.RestAdapter;
-import com.app.huaweiblog.connection.callbacks.CallbackInfo;
-import com.app.huaweiblog.data.AppConfig;
-import com.app.huaweiblog.data.SharedPref;
-import com.app.huaweiblog.model.Attachment;
-import com.app.huaweiblog.model.Category;
-import com.app.huaweiblog.model.Author;
-import com.app.huaweiblog.model.DeviceInfo;
-import com.app.huaweiblog.model.Page;
-import com.app.huaweiblog.model.Post;
-import com.app.huaweiblog.realm.table.AuthorRealm;
+import com.app.huaweiblog.plus.ActivityWebView;
+import com.app.huaweiblog.plus.R;
+import com.app.huaweiblog.plus.connection.API;
+import com.app.huaweiblog.plus.connection.RestAdapter;
+import com.app.huaweiblog.plus.connection.callbacks.CallbackInfo;
+import com.app.huaweiblog.plus.data.AppConfig;
+import com.app.huaweiblog.plus.data.SharedPref;
+import com.app.huaweiblog.plus.model.Attachment;
+import com.app.huaweiblog.plus.model.Category;
+import com.app.huaweiblog.plus.model.Author;
+import com.app.huaweiblog.plus.model.DeviceInfo;
+import com.app.huaweiblog.plus.model.Page;
+import com.app.huaweiblog.plus.model.Post;
+import com.app.huaweiblog.plus.realm.table.AuthorRealm;
 import com.squareup.picasso.Picasso;
 
 import java.net.InetAddress;

@@ -1,4 +1,4 @@
-package com.app.huaweiblog;
+package com.app.huaweiblog.plus;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
@@ -32,10 +32,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
-import com.app.huaweiblog.data.AppConfig;
-import com.app.huaweiblog.data.SharedPref;
-import com.app.huaweiblog.utils.PermissionUtil;
-import com.app.huaweiblog.utils.Tools;
+import com.app.huaweiblog.plus.data.AppConfig;
+import com.app.huaweiblog.plus.data.SharedPref;
+import com.app.huaweiblog.plus.utils.PermissionUtil;
+import com.app.huaweiblog.plus.utils.Tools;
 
 /**
  * ATTENTION : To see where list of setting comes is open res/xml/setting_preferences.xml

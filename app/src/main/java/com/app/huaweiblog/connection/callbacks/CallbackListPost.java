@@ -1,9 +1,9 @@
-package com.app.huaweiblog.connection.callbacks;
+package com.app.huaweiblog.plus.connection.callbacks;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.app.huaweiblog.model.Post;
+import com.app.huaweiblog.plus.model.Post;
 
 public class CallbackListPost {
 

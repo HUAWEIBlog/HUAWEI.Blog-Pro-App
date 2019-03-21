@@ -1,6 +1,6 @@
-package com.app.huaweiblog.realm.table;
+package com.app.huaweiblog.plus.realm.table;
 
-import com.app.huaweiblog.model.Thumbnails;
+import com.app.huaweiblog.plus.model.Thumbnails;
 
 import io.realm.RealmObject;
 

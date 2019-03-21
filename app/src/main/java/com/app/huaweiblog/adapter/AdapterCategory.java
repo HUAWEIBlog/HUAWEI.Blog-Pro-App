@@ -1,4 +1,4 @@
-package com.app.huaweiblog.adapter;
+package com.app.huaweiblog.plus.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -12,9 +12,9 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.app.huaweiblog.model.Category;
+import com.app.huaweiblog.plus.model.Category;
 
-import com.app.huaweiblog.R;
+import com.app.huaweiblog.plus.R;
 
 public class AdapterCategory extends RecyclerView.Adapter<AdapterCategory.ViewHolder> {
 

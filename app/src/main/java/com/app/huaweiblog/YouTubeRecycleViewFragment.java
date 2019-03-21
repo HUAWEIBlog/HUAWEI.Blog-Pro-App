@@ -1,4 +1,4 @@
-package com.app.huaweiblog;
+package com.app.huaweiblog.plus;
 
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -13,9 +13,9 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
-import com.app.huaweiblog.YouTube.GetPlaylistAsyncTask;
-import com.app.huaweiblog.YouTube.GetPlaylistTitlesAsyncTask;
-import com.app.huaweiblog.model.PlaylistVideos;
+import com.app.huaweiblog.plus.YouTube.GetPlaylistAsyncTask;
+import com.app.huaweiblog.plus.YouTube.GetPlaylistTitlesAsyncTask;
+import com.app.huaweiblog.plus.model.PlaylistVideos;
 import com.google.api.services.youtube.YouTube;
 import com.google.api.services.youtube.model.PlaylistListResponse;
 import com.google.api.services.youtube.model.Video;

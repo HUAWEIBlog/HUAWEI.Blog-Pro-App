@@ -1,10 +1,10 @@
-package com.app.huaweiblog.connection;
+package com.app.huaweiblog.plus.connection;
 
 import com.google.gson.ExclusionStrategy;
 import com.google.gson.FieldAttributes;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.app.huaweiblog.BuildConfig;
+import com.app.huaweiblog.plus.BuildConfig;
 
 import java.util.concurrent.TimeUnit;
 

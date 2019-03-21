@@ -1,4 +1,4 @@
-package com.app.huaweiblog;
+package com.app.huaweiblog.plus;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.app.huaweiblog.widget.TouchImageView;
+import com.app.huaweiblog.plus.widget.TouchImageView;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 

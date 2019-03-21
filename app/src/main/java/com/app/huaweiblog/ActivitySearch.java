@@ -1,4 +1,4 @@
-package com.app.huaweiblog;
+package com.app.huaweiblog.plus;
 
 import android.content.Context;
 import android.os.Build;
@@ -30,15 +30,15 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-import com.app.huaweiblog.adapter.AdapterPostListModern;
-import com.app.huaweiblog.adapter.AdapterSuggestionSearch;
-import com.app.huaweiblog.connection.API;
-import com.app.huaweiblog.connection.RestAdapter;
-import com.app.huaweiblog.connection.callbacks.CallbackListPost;
-import com.app.huaweiblog.data.Constant;
-import com.app.huaweiblog.model.Page;
-import com.app.huaweiblog.model.Post;
-import com.app.huaweiblog.utils.NetworkCheck;
+import com.app.huaweiblog.plus.adapter.AdapterPostListModern;
+import com.app.huaweiblog.plus.adapter.AdapterSuggestionSearch;
+import com.app.huaweiblog.plus.connection.API;
+import com.app.huaweiblog.plus.connection.RestAdapter;
+import com.app.huaweiblog.plus.connection.callbacks.CallbackListPost;
+import com.app.huaweiblog.plus.data.Constant;
+import com.app.huaweiblog.plus.model.Page;
+import com.app.huaweiblog.plus.model.Post;
+import com.app.huaweiblog.plus.utils.NetworkCheck;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

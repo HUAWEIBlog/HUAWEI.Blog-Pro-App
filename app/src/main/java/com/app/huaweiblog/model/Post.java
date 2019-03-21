@@ -1,10 +1,10 @@
-package com.app.huaweiblog.model;
+package com.app.huaweiblog.plus.model;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.app.huaweiblog.realm.table.PostRealm;
+import com.app.huaweiblog.plus.realm.table.PostRealm;
 import io.realm.RealmList;
 
 public class Post implements Serializable {

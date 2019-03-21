@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.app.huaweiblog" android:versionCode="2">
+    package="com.app.huaweiblog.plus" android:versionCode="2">
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -11,35 +11,35 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name="com.app.huaweiblog.ThisApplication"
+        android:name="com.app.huaweiblog.plus.ThisApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/appName"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name="com.app.huaweiblog.ActivityMain" />
+        <activity android:name="com.app.huaweiblog.plus.ActivityMain" />
 
-        <activity android:name="com.app.huaweiblog.ActivitySplash">
+        <activity android:name="com.app.huaweiblog.plus.ActivitySplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.app.huaweiblog.ActivityYouTubePlayer"
+        <activity android:name="com.app.huaweiblog.plus.ActivityYouTubePlayer"
             android:theme="@style/AppThemeSetting">
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.app.huaweiblog.ActivityYouTube" />
+            android:value="com.app.huaweiblog.plus.ActivityYouTube" />
         </activity>
-        <activity android:name="com.app.huaweiblog.ActivityYouTube"
+        <activity android:name="com.app.huaweiblog.plus.ActivityYouTube"
             android:theme="@style/AppThemeSetting">
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.app.huaweiblog.ActivityMain" />
+            android:value="com.app.huaweiblog.plus.ActivityMain" />
         </activity>
-        <activity android:name="com.app.huaweiblog.ActivityDeepLink">
+        <activity android:name="com.app.huaweiblog.plus.ActivityDeepLink">
             <!-- handle website links
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -57,32 +57,32 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.app.huaweiblog.ActivityPostDetails"
+            android:name="com.app.huaweiblog.plus.ActivityPostDetails"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:hardwareAccelerated="true" >
         </activity>
         <activity
-            android:name="com.app.huaweiblog.ActivityPageDetails"
+            android:name="com.app.huaweiblog.plus.ActivityPageDetails"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:hardwareAccelerated="true" />
-        <activity android:name="com.app.huaweiblog.ActivityCategoryDetails" />
-        <activity android:name="com.app.huaweiblog.ActivityWebView" />
-        <activity android:name="com.app.huaweiblog.ActivityCategoryDevicesDetails" />
-        <activity android:name="com.app.huaweiblog.ActivityCategorySoftwareDetails" />
-        <activity android:name="com.app.huaweiblog.ActivityCategoryEnterpriseDetails" />
-        <activity android:name="com.app.huaweiblog.ActivityCategoryPreferences" />
-        <activity android:name="com.app.huaweiblog.ActivityCategoryTippsDetails" />
+        <activity android:name="com.app.huaweiblog.plus.ActivityCategoryDetails" />
+        <activity android:name="com.app.huaweiblog.plus.ActivityWebView" />
+        <activity android:name="com.app.huaweiblog.plus.ActivityCategoryDevicesDetails" />
+        <activity android:name="com.app.huaweiblog.plus.ActivityCategorySoftwareDetails" />
+        <activity android:name="com.app.huaweiblog.plus.ActivityCategoryEnterpriseDetails" />
+        <activity android:name="com.app.huaweiblog.plus.ActivityCategoryPreferences" />
+        <activity android:name="com.app.huaweiblog.plus.ActivityCategoryTippsDetails" />
         <activity
-            android:name="com.app.huaweiblog.ActivitySettings"
+            android:name="com.app.huaweiblog.plus.ActivitySettings"
             android:theme="@style/AppThemeSetting" />
         <activity
-            android:name="com.app.huaweiblog.ActivitySearch"
+            android:name="com.app.huaweiblog.plus.ActivitySearch"
             android:windowSoftInputMode="stateVisible" />
         <activity
-            android:name="com.app.huaweiblog.ActivitySendComment"
+            android:name="com.app.huaweiblog.plus.ActivitySendComment"
             android:configChanges="orientation|keyboardHidden"
             android:theme="@style/AppThemeDialog" />
-        <activity android:name="com.app.huaweiblog.ActivityFullScreenImage"/>
+        <activity android:name="com.app.huaweiblog.plus.ActivityFullScreenImage"/>
 
         <!-- Ads activity -->
         <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
@@ -96,7 +96,7 @@
             android:name="com.google.android.gms.ads.AD_MANAGER_APP"
             android:value="true"/>
 
-        <service android:name="com.app.huaweiblog.fcm.FcmMessagingService"
+        <service android:name="com.app.huaweiblog.plus.fcm.FcmMessagingService"
             android:enabled="true"
             android:exported="true">
             <intent-filter>

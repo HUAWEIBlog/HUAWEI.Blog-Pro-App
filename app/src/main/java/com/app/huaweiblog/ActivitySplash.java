@@ -1,4 +1,4 @@
-package com.app.huaweiblog;
+package com.app.huaweiblog.plus;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,10 +8,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ProgressBar;
 
-import com.app.huaweiblog.data.Constant;
-import com.app.huaweiblog.data.SharedPref;
-import com.app.huaweiblog.utils.PermissionUtil;
-import com.app.huaweiblog.utils.Tools;
+import com.app.huaweiblog.plus.data.Constant;
+import com.app.huaweiblog.plus.data.SharedPref;
+import com.app.huaweiblog.plus.utils.PermissionUtil;
+import com.app.huaweiblog.plus.utils.Tools;
 
 public class ActivitySplash extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.app.huaweiblog;
+package com.app.huaweiblog.plus;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -22,15 +22,15 @@ import android.view.animation.OvershootInterpolator;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.app.huaweiblog.data.AppConfig;
-import com.app.huaweiblog.data.Constant;
-import com.app.huaweiblog.data.GDPR;
-import com.app.huaweiblog.data.SharedPref;
-import com.app.huaweiblog.fragment.FragmentCategory;
-import com.app.huaweiblog.fragment.FragmentHome;
-import com.app.huaweiblog.fragment.FragmentLater;
-import com.app.huaweiblog.fragment.FragmentPage;
-import com.app.huaweiblog.utils.Tools;
+import com.app.huaweiblog.plus.data.AppConfig;
+import com.app.huaweiblog.plus.data.Constant;
+import com.app.huaweiblog.plus.data.GDPR;
+import com.app.huaweiblog.plus.data.SharedPref;
+import com.app.huaweiblog.plus.fragment.FragmentCategory;
+import com.app.huaweiblog.plus.fragment.FragmentHome;
+import com.app.huaweiblog.plus.fragment.FragmentLater;
+import com.app.huaweiblog.plus.fragment.FragmentPage;
+import com.app.huaweiblog.plus.utils.Tools;
 import com.google.ads.mediation.admob.AdMobAdapter;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;

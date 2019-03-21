@@ -1,4 +1,4 @@
-package com.app.huaweiblog.utils;
+package com.app.huaweiblog.plus.utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

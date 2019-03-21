@@ -1,4 +1,4 @@
-package com.app.huaweiblog.data;
+package com.app.huaweiblog.plus.data;
 
 public class Constant {
 

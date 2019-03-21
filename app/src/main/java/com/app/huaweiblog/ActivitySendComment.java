@@ -1,4 +1,4 @@
-package com.app.huaweiblog;
+package com.app.huaweiblog.plus;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -15,15 +15,15 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.app.huaweiblog.connection.API;
-import com.app.huaweiblog.connection.RestAdapter;
-import com.app.huaweiblog.connection.callbacks.CallbackComment;
-import com.app.huaweiblog.connection.callbacks.CallbackListPost;
-import com.app.huaweiblog.data.Constant;
-import com.app.huaweiblog.data.SharedPref;
-import com.app.huaweiblog.model.Post;
-import com.app.huaweiblog.utils.NetworkCheck;
-import com.app.huaweiblog.utils.Tools;
+import com.app.huaweiblog.plus.connection.API;
+import com.app.huaweiblog.plus.connection.RestAdapter;
+import com.app.huaweiblog.plus.connection.callbacks.CallbackComment;
+import com.app.huaweiblog.plus.connection.callbacks.CallbackListPost;
+import com.app.huaweiblog.plus.data.Constant;
+import com.app.huaweiblog.plus.data.SharedPref;
+import com.app.huaweiblog.plus.model.Post;
+import com.app.huaweiblog.plus.utils.NetworkCheck;
+import com.app.huaweiblog.plus.utils.Tools;
 import com.balysv.materialripple.MaterialRippleLayout;
 
 import retrofit2.Call;

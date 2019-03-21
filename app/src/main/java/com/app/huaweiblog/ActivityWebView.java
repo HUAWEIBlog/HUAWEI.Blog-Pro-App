@@ -1,4 +1,4 @@
-package com.app.huaweiblog;
+package com.app.huaweiblog.plus;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,7 +11,7 @@ import android.view.View;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 
-import com.app.huaweiblog.utils.Tools;
+import com.app.huaweiblog.plus.utils.Tools;
 
 public class ActivityWebView extends AppCompatActivity {
 

@@ -1,6 +1,6 @@
-package com.app.huaweiblog.realm.table;
+package com.app.huaweiblog.plus.realm.table;
 
-import com.app.huaweiblog.model.Post;
+import com.app.huaweiblog.plus.model.Post;
 
 import java.util.ArrayList;
 

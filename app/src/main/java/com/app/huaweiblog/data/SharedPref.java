@@ -1,4 +1,4 @@
-package com.app.huaweiblog.data;
+package com.app.huaweiblog.plus.data;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -7,8 +7,8 @@ import android.text.TextUtils;
 
 import com.google.gson.Gson;
 
-import com.app.huaweiblog.R;
-import com.app.huaweiblog.connection.callbacks.CallbackInfo;
+import com.app.huaweiblog.plus.R;
+import com.app.huaweiblog.plus.connection.callbacks.CallbackInfo;
 
 public class SharedPref {
 

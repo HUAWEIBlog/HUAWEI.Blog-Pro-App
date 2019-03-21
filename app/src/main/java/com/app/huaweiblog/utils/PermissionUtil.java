@@ -1,4 +1,4 @@
-package com.app.huaweiblog.utils;
+package com.app.huaweiblog.plus.utils;
 
 import android.Manifest;
 import android.app.Activity;

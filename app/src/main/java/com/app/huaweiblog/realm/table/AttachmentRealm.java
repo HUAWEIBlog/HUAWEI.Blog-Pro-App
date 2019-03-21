@@ -1,6 +1,6 @@
-package com.app.huaweiblog.realm.table;
+package com.app.huaweiblog.plus.realm.table;
 
-import com.app.huaweiblog.model.Attachment;
+import com.app.huaweiblog.plus.model.Attachment;
 
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;

@@ -1,18 +1,18 @@
-package com.app.huaweiblog;
+package com.app.huaweiblog.plus;
 
 import android.app.Application;
 import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
 
-import com.app.huaweiblog.connection.API;
-import com.app.huaweiblog.connection.RestAdapter;
-import com.app.huaweiblog.connection.callbacks.CallbackDevice;
-import com.app.huaweiblog.data.AppConfig;
-import com.app.huaweiblog.data.SharedPref;
-import com.app.huaweiblog.model.DeviceInfo;
-import com.app.huaweiblog.utils.NetworkCheck;
-import com.app.huaweiblog.utils.Tools;
+import com.app.huaweiblog.plus.connection.API;
+import com.app.huaweiblog.plus.connection.RestAdapter;
+import com.app.huaweiblog.plus.connection.callbacks.CallbackDevice;
+import com.app.huaweiblog.plus.data.AppConfig;
+import com.app.huaweiblog.plus.data.SharedPref;
+import com.app.huaweiblog.plus.model.DeviceInfo;
+import com.app.huaweiblog.plus.utils.NetworkCheck;
+import com.app.huaweiblog.plus.utils.Tools;
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.StandardExceptionParser;

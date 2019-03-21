@@ -1,4 +1,4 @@
-package com.app.huaweiblog.model;
+package com.app.huaweiblog.plus.model;
 
 import com.google.api.services.youtube.model.Video;
 

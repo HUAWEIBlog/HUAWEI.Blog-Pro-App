@@ -1,4 +1,4 @@
-package com.app.huaweiblog.realm;
+package com.app.huaweiblog.plus.realm;
 
 import android.app.Activity;
 import android.app.Application;
@@ -7,8 +7,8 @@ import android.support.v4.app.Fragment;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.app.huaweiblog.model.Post;
-import com.app.huaweiblog.realm.table.PostRealm;
+import com.app.huaweiblog.plus.model.Post;
+import com.app.huaweiblog.plus.realm.table.PostRealm;
 import io.realm.Realm;
 import io.realm.RealmResults;
 import io.realm.Sort;

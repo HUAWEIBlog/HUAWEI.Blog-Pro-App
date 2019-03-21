@@ -1,4 +1,4 @@
-package com.app.huaweiblog.fragment;
+package com.app.huaweiblog.plus.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,12 +13,12 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.app.huaweiblog.ActivityMain;
-import com.app.huaweiblog.ActivityPostDetails;
-import com.app.huaweiblog.R;
-import com.app.huaweiblog.adapter.AdapterPostListModern;
-import com.app.huaweiblog.model.Post;
-import com.app.huaweiblog.realm.RealmController;
+import com.app.huaweiblog.plus.ActivityMain;
+import com.app.huaweiblog.plus.ActivityPostDetails;
+import com.app.huaweiblog.plus.R;
+import com.app.huaweiblog.plus.adapter.AdapterPostListModern;
+import com.app.huaweiblog.plus.model.Post;
+import com.app.huaweiblog.plus.realm.RealmController;
 
 public class FragmentLater extends Fragment {
 

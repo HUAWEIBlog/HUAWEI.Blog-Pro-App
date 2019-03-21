@@ -1,4 +1,4 @@
-package com.app.huaweiblog.model;
+package com.app.huaweiblog.plus.model;
 
 import java.io.Serializable;
 

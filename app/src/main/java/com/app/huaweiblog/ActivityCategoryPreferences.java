@@ -1,4 +1,4 @@
-package com.app.huaweiblog;
+package com.app.huaweiblog.plus;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,15 +19,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.app.huaweiblog.adapter.AdapterPostListModern;
-import com.app.huaweiblog.connection.API;
-import com.app.huaweiblog.connection.RestAdapter;
-import com.app.huaweiblog.connection.callbacks.CallbackTagsDetails;
-import com.app.huaweiblog.data.Constant;
-import com.app.huaweiblog.model.Category;
-import com.app.huaweiblog.model.Post;
-import com.app.huaweiblog.utils.NetworkCheck;
-import com.app.huaweiblog.data.SharedPref;
+import com.app.huaweiblog.plus.adapter.AdapterPostListModern;
+import com.app.huaweiblog.plus.connection.API;
+import com.app.huaweiblog.plus.connection.RestAdapter;
+import com.app.huaweiblog.plus.connection.callbacks.CallbackTagsDetails;
+import com.app.huaweiblog.plus.data.Constant;
+import com.app.huaweiblog.plus.model.Category;
+import com.app.huaweiblog.plus.model.Post;
+import com.app.huaweiblog.plus.utils.NetworkCheck;
+import com.app.huaweiblog.plus.data.SharedPref;
 
 import java.util.ArrayList;
 import java.util.List;

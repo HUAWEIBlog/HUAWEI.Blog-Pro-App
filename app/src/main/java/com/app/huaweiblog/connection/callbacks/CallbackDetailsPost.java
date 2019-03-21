@@ -1,6 +1,6 @@
-package com.app.huaweiblog.connection.callbacks;
+package com.app.huaweiblog.plus.connection.callbacks;
 
-import com.app.huaweiblog.model.Post;
+import com.app.huaweiblog.plus.model.Post;
 
 public class CallbackDetailsPost {
     public String status = "";

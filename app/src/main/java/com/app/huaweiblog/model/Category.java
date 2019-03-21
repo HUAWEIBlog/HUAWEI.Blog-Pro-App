@@ -1,8 +1,8 @@
-package com.app.huaweiblog.model;
+package com.app.huaweiblog.plus.model;
 
 import java.io.Serializable;
 
-import com.app.huaweiblog.realm.table.CategoryRealm;
+import com.app.huaweiblog.plus.realm.table.CategoryRealm;
 
 public class Category implements Serializable {
 

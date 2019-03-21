@@ -1,9 +1,9 @@
-package com.app.huaweiblog.connection.callbacks;
+package com.app.huaweiblog.plus.connection.callbacks;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.app.huaweiblog.model.Category;
+import com.app.huaweiblog.plus.model.Category;
 
 public class CallbackCategories {
     public String status = "";

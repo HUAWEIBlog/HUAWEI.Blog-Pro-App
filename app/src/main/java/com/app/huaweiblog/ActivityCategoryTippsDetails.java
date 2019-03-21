@@ -1,4 +1,4 @@
-package com.app.huaweiblog;
+package com.app.huaweiblog.plus;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,14 +19,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.app.huaweiblog.adapter.AdapterPostListModern;
-import com.app.huaweiblog.connection.API;
-import com.app.huaweiblog.connection.RestAdapter;
-import com.app.huaweiblog.connection.callbacks.CallbackCategoryDetails;
-import com.app.huaweiblog.data.Constant;
-import com.app.huaweiblog.model.Category;
-import com.app.huaweiblog.model.Post;
-import com.app.huaweiblog.utils.NetworkCheck;
+import com.app.huaweiblog.plus.adapter.AdapterPostListModern;
+import com.app.huaweiblog.plus.connection.API;
+import com.app.huaweiblog.plus.connection.RestAdapter;
+import com.app.huaweiblog.plus.connection.callbacks.CallbackCategoryDetails;
+import com.app.huaweiblog.plus.data.Constant;
+import com.app.huaweiblog.plus.model.Category;
+import com.app.huaweiblog.plus.model.Post;
+import com.app.huaweiblog.plus.utils.NetworkCheck;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,7 +41,7 @@ public class ActivityCategoryTippsDetails extends AppCompatActivity {
 
         // give preparation animation activity transition
         public static void navigate(AppCompatActivity activity, View transitionView, Category obj) {
-            Intent intent = new Intent(activity, com.app.huaweiblog.ActivityCategoryEnterpriseDetails.class);
+            Intent intent = new Intent(activity, com.app.huaweiblog.plus.ActivityCategoryEnterpriseDetails.class);
             intent.putExtra(EXTRA_OBJC, obj);
             ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(activity, transitionView, EXTRA_OBJC);
             ActivityCompat.startActivity(activity, intent, options.toBundle());
@@ -89,7 +89,7 @@ public class ActivityCategoryTippsDetails extends AppCompatActivity {
             mAdapter.setOnItemClickListener(new AdapterPostListModern.OnItemClickListener() {
                 @Override
                 public void onItemClick(View v, Post obj, int position) {
-                    ActivityPostDetails.navigate( com.app.huaweiblog.ActivityCategoryTippsDetails.this, v.findViewById(R.id.image), obj);
+                    ActivityPostDetails.navigate( com.app.huaweiblog.plus.ActivityCategoryTippsDetails.this, v.findViewById(R.id.image), obj);
                 }
             });
 

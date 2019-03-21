@@ -1,6 +1,6 @@
-package com.app.huaweiblog.model;
+package com.app.huaweiblog.plus.model;
 
-import com.app.huaweiblog.realm.table.ThumbnailsRealm;
+import com.app.huaweiblog.plus.realm.table.ThumbnailsRealm;
 
 import java.io.Serializable;
 
