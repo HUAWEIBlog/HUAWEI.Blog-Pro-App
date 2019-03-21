@@ -1,4 +1,4 @@
-package com.app.huaweiblogplus.plus.adapter;
+package com.app.huaweiblogplus.adapter;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.app.huaweiblogplus.plus.R;
+import com.app.huaweiblogplus.R;
 import com.google.gson.Gson;
 
 import java.io.Serializable;

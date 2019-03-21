@@ -1,8 +1,8 @@
-package com.app.huaweiblogplus.plus.model;
+package com.app.huaweiblogplus.model;
 
 import java.io.Serializable;
 
-import com.app.huaweiblogplus.plus.realm.table.CommentRealm;
+import com.app.huaweiblogplus.realm.table.CommentRealm;
 
 public class Comment implements Serializable {
 

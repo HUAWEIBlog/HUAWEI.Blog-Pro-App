@@ -1,4 +1,4 @@
-package com.app.huaweiblogplus.plus.data;
+package com.app.huaweiblogplus.data;
 
 /**
  * Licensed under the Apache License, Version 2.0 (the "License");

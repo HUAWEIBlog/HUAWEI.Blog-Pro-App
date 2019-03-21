@@ -1,4 +1,4 @@
-package com.app.huaweiblogplus.plus;
+package com.app.huaweiblogplus;
 
 import android.app.Activity;
 import android.content.Intent;

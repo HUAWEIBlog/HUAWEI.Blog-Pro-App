@@ -1,4 +1,4 @@
-package com.app.huaweiblogplus.plus;
+package com.app.huaweiblogplus;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

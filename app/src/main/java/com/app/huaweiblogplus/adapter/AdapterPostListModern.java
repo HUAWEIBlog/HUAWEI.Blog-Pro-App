@@ -1,4 +1,4 @@
-package com.app.huaweiblogplus.plus.adapter;
+package com.app.huaweiblogplus.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.LinearLayoutManager;
@@ -12,10 +12,10 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.app.huaweiblogplus.plus.R;
-import com.app.huaweiblogplus.plus.data.Constant;
-import com.app.huaweiblogplus.plus.model.Post;
-import com.app.huaweiblogplus.plus.utils.Tools;
+import com.app.huaweiblogplus.R;
+import com.app.huaweiblogplus.data.Constant;
+import com.app.huaweiblogplus.model.Post;
+import com.app.huaweiblogplus.utils.Tools;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
-package com.app.huaweiblogplus.plus.realm.table;
+package com.app.huaweiblogplus.realm.table;
 
-import com.app.huaweiblogplus.plus.model.Comment;
+import com.app.huaweiblogplus.model.Comment;
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 

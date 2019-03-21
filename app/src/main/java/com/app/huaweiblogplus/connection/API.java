@@ -1,18 +1,18 @@
-package com.app.huaweiblogplus.plus.connection;
+package com.app.huaweiblogplus.connection;
 
 
-import com.app.huaweiblogplus.plus.connection.callbacks.CallbackCategories;
-import com.app.huaweiblogplus.plus.connection.callbacks.CallbackCategoryDetails;
-import com.app.huaweiblogplus.plus.connection.callbacks.CallbackTags;
-import com.app.huaweiblogplus.plus.connection.callbacks.CallbackTagsDetails;
-import com.app.huaweiblogplus.plus.connection.callbacks.CallbackComment;
-import com.app.huaweiblogplus.plus.connection.callbacks.CallbackDetailsPage;
-import com.app.huaweiblogplus.plus.connection.callbacks.CallbackDetailsPost;
-import com.app.huaweiblogplus.plus.connection.callbacks.CallbackDevice;
-import com.app.huaweiblogplus.plus.connection.callbacks.CallbackInfo;
-import com.app.huaweiblogplus.plus.connection.callbacks.CallbackListPage;
-import com.app.huaweiblogplus.plus.connection.callbacks.CallbackListPost;
-import com.app.huaweiblogplus.plus.model.DeviceInfo;
+import com.app.huaweiblogplus.connection.callbacks.CallbackCategories;
+import com.app.huaweiblogplus.connection.callbacks.CallbackCategoryDetails;
+import com.app.huaweiblogplus.connection.callbacks.CallbackTags;
+import com.app.huaweiblogplus.connection.callbacks.CallbackTagsDetails;
+import com.app.huaweiblogplus.connection.callbacks.CallbackComment;
+import com.app.huaweiblogplus.connection.callbacks.CallbackDetailsPage;
+import com.app.huaweiblogplus.connection.callbacks.CallbackDetailsPost;
+import com.app.huaweiblogplus.connection.callbacks.CallbackDevice;
+import com.app.huaweiblogplus.connection.callbacks.CallbackInfo;
+import com.app.huaweiblogplus.connection.callbacks.CallbackListPage;
+import com.app.huaweiblogplus.connection.callbacks.CallbackListPost;
+import com.app.huaweiblogplus.model.DeviceInfo;
 
 import retrofit2.Call;
 import retrofit2.http.Body;

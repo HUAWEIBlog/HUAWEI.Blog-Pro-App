@@ -1,4 +1,4 @@
-package com.app.huaweiblogplus.plus.fragment;
+package com.app.huaweiblogplus.fragment;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -13,16 +13,16 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.app.huaweiblogplus.plus.ActivityCategoryDetails;
-import com.app.huaweiblogplus.plus.ActivityMain;
-import com.app.huaweiblogplus.plus.R;
-import com.app.huaweiblogplus.plus.adapter.AdapterCategory;
-import com.app.huaweiblogplus.plus.connection.API;
-import com.app.huaweiblogplus.plus.connection.RestAdapter;
-import com.app.huaweiblogplus.plus.connection.callbacks.CallbackCategories;
-import com.app.huaweiblogplus.plus.data.Constant;
-import com.app.huaweiblogplus.plus.model.Category;
-import com.app.huaweiblogplus.plus.utils.NetworkCheck;
+import com.app.huaweiblogplus.ActivityCategoryDetails;
+import com.app.huaweiblogplus.ActivityMain;
+import com.app.huaweiblogplus.R;
+import com.app.huaweiblogplus.adapter.AdapterCategory;
+import com.app.huaweiblogplus.connection.API;
+import com.app.huaweiblogplus.connection.RestAdapter;
+import com.app.huaweiblogplus.connection.callbacks.CallbackCategories;
+import com.app.huaweiblogplus.data.Constant;
+import com.app.huaweiblogplus.model.Category;
+import com.app.huaweiblogplus.utils.NetworkCheck;
 
 import java.util.ArrayList;
 import java.util.HashSet;

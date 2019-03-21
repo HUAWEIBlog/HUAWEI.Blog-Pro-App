@@ -1,4 +1,4 @@
-package com.app.huaweiblogplus.plus.widget;
+package com.app.huaweiblogplus.widget;
 
 import android.content.Context;
 import android.graphics.Matrix;

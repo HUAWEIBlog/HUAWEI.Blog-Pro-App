@@ -1,4 +1,4 @@
-package com.app.huaweiblogplus.plus;
+package com.app.huaweiblogplus;
 
 import android.app.Activity;
 import android.content.res.Configuration;
@@ -23,10 +23,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.app.huaweiblogplus.plus.data.AppConfig;
-import com.app.huaweiblogplus.plus.data.SharedPref;
-import com.app.huaweiblogplus.plus.utils.PermissionUtil;
-import com.app.huaweiblogplus.plus.utils.Tools;
+import com.app.huaweiblogplus.data.AppConfig;
+import com.app.huaweiblogplus.data.SharedPref;
+import com.app.huaweiblogplus.utils.PermissionUtil;
+import com.app.huaweiblogplus.utils.Tools;
 
 /**
  * ATTENTION : To see where list of setting comes is open res/xml/setting_preferences.xml

@@ -1,4 +1,4 @@
-package com.app.huaweiblogplus.plus;
+package com.app.huaweiblogplus;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -30,16 +30,16 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.app.huaweiblogplus.plus.connection.API;
-import com.app.huaweiblogplus.plus.connection.RestAdapter;
-import com.app.huaweiblogplus.plus.connection.callbacks.CallbackDetailsPage;
-import com.app.huaweiblogplus.plus.data.AppConfig;
-import com.app.huaweiblogplus.plus.data.Constant;
-import com.app.huaweiblogplus.plus.data.GDPR;
-import com.app.huaweiblogplus.plus.data.SharedPref;
-import com.app.huaweiblogplus.plus.model.Page;
-import com.app.huaweiblogplus.plus.utils.NetworkCheck;
-import com.app.huaweiblogplus.plus.utils.Tools;
+import com.app.huaweiblogplus.connection.API;
+import com.app.huaweiblogplus.connection.RestAdapter;
+import com.app.huaweiblogplus.connection.callbacks.CallbackDetailsPage;
+import com.app.huaweiblogplus.data.AppConfig;
+import com.app.huaweiblogplus.data.Constant;
+import com.app.huaweiblogplus.data.GDPR;
+import com.app.huaweiblogplus.data.SharedPref;
+import com.app.huaweiblogplus.model.Page;
+import com.app.huaweiblogplus.utils.NetworkCheck;
+import com.app.huaweiblogplus.utils.Tools;
 import com.google.ads.mediation.admob.AdMobAdapter;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;

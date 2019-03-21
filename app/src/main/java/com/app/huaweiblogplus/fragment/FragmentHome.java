@@ -1,4 +1,4 @@
-package com.app.huaweiblogplus.plus.fragment;
+package com.app.huaweiblogplus.fragment;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -16,17 +16,17 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.app.huaweiblogplus.plus.ActivityMain;
-import com.app.huaweiblogplus.plus.ActivityPostDetails;
-import com.app.huaweiblogplus.plus.R;
-import com.app.huaweiblogplus.plus.adapter.AdapterPostListModern;
-import com.app.huaweiblogplus.plus.connection.API;
-import com.app.huaweiblogplus.plus.connection.RestAdapter;
-import com.app.huaweiblogplus.plus.connection.callbacks.CallbackListPost;
-import com.app.huaweiblogplus.plus.data.Constant;
-import com.app.huaweiblogplus.plus.model.Post;
-import com.app.huaweiblogplus.plus.utils.NetworkCheck;
-import com.app.huaweiblogplus.plus.utils.Tools;
+import com.app.huaweiblogplus.ActivityMain;
+import com.app.huaweiblogplus.ActivityPostDetails;
+import com.app.huaweiblogplus.R;
+import com.app.huaweiblogplus.adapter.AdapterPostListModern;
+import com.app.huaweiblogplus.connection.API;
+import com.app.huaweiblogplus.connection.RestAdapter;
+import com.app.huaweiblogplus.connection.callbacks.CallbackListPost;
+import com.app.huaweiblogplus.data.Constant;
+import com.app.huaweiblogplus.model.Post;
+import com.app.huaweiblogplus.utils.NetworkCheck;
+import com.app.huaweiblogplus.utils.Tools;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

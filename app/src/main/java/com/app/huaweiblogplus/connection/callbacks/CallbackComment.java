@@ -1,4 +1,4 @@
-package com.app.huaweiblogplus.plus.connection.callbacks;
+package com.app.huaweiblogplus.connection.callbacks;
 
 public class CallbackComment {
     public String status = "";

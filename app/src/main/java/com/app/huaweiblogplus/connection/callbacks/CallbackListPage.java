@@ -1,6 +1,6 @@
-package com.app.huaweiblogplus.plus.connection.callbacks;
+package com.app.huaweiblogplus.connection.callbacks;
 
-import com.app.huaweiblogplus.plus.model.Page;
+import com.app.huaweiblogplus.model.Page;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.app.huaweiblogplus.plus.fcm;
+package com.app.huaweiblogplus.fcm;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -18,16 +18,16 @@ import android.support.v4.app.NotificationCompat;
 import android.text.Html;
 import android.util.Log;
 
-import com.app.huaweiblogplus.plus.ActivityMain;
-import com.app.huaweiblogplus.plus.ActivityPostDetails;
-import com.app.huaweiblogplus.plus.ActivitySplash;
-import com.app.huaweiblogplus.plus.R;
-import com.app.huaweiblogplus.plus.data.Constant;
-import com.app.huaweiblogplus.plus.data.SharedPref;
-import com.app.huaweiblogplus.plus.model.FcmNotif;
-import com.app.huaweiblogplus.plus.model.Post;
-import com.app.huaweiblogplus.plus.utils.CallbackImageNotif;
-import com.app.huaweiblogplus.plus.utils.PermissionUtil;
+import com.app.huaweiblogplus.ActivityMain;
+import com.app.huaweiblogplus.ActivityPostDetails;
+import com.app.huaweiblogplus.ActivitySplash;
+import com.app.huaweiblogplus.R;
+import com.app.huaweiblogplus.data.Constant;
+import com.app.huaweiblogplus.data.SharedPref;
+import com.app.huaweiblogplus.model.FcmNotif;
+import com.app.huaweiblogplus.model.Post;
+import com.app.huaweiblogplus.utils.CallbackImageNotif;
+import com.app.huaweiblogplus.utils.PermissionUtil;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 import com.squareup.picasso.Picasso;

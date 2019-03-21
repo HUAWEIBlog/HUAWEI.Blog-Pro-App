@@ -1,4 +1,4 @@
-package com.app.huaweiblogplus.plus.adapter;
+package com.app.huaweiblogplus.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -12,9 +12,9 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.app.huaweiblogplus.plus.R;
-import com.app.huaweiblogplus.plus.model.Comment;
-import com.app.huaweiblogplus.plus.utils.Tools;
+import com.app.huaweiblogplus.R;
+import com.app.huaweiblogplus.model.Comment;
+import com.app.huaweiblogplus.utils.Tools;
 
 public class AdapterComments extends RecyclerView.Adapter<AdapterComments.ViewHolder> {
 

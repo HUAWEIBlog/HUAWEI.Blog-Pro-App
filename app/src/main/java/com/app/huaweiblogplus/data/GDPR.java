@@ -1,11 +1,11 @@
-package com.app.huaweiblogplus.plus.data;
+package com.app.huaweiblogplus.data;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.app.huaweiblogplus.plus.BuildConfig;
-import com.app.huaweiblogplus.plus.R;
+import com.app.huaweiblogplus.BuildConfig;
+import com.app.huaweiblogplus.R;
 import com.google.ads.consent.ConsentForm;
 import com.google.ads.consent.ConsentFormListener;
 import com.google.ads.consent.ConsentInfoUpdateListener;

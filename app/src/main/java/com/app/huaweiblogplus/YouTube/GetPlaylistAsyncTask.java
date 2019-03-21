@@ -1,4 +1,4 @@
-package com.app.huaweiblogplus.plus.YouTube;
+package com.app.huaweiblogplus.YouTube;
 
 import android.os.AsyncTask;
 import android.text.TextUtils;
@@ -11,7 +11,7 @@ import com.google.api.services.youtube.model.PlaylistItemListResponse;
 import com.google.api.services.youtube.model.Video;
 import com.google.api.services.youtube.model.VideoListResponse;
 
-import com.app.huaweiblogplus.plus.data.ApiKeys;
+import com.app.huaweiblogplus.data.ApiKeys;
 
 import java.io.IOException;
 import java.util.ArrayList;

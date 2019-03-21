@@ -1,4 +1,4 @@
-package com.app.huaweiblogplus.plus.utils;
+package com.app.huaweiblogplus.utils;
 
 import android.graphics.Bitmap;
 

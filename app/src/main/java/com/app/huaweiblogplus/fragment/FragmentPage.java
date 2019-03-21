@@ -1,4 +1,4 @@
-package com.app.huaweiblogplus.plus.fragment;
+package com.app.huaweiblogplus.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -12,16 +12,16 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.app.huaweiblogplus.plus.ActivityMain;
-import com.app.huaweiblogplus.plus.ActivityPageDetails;
-import com.app.huaweiblogplus.plus.R;
-import com.app.huaweiblogplus.plus.adapter.AdapterPageList;
-import com.app.huaweiblogplus.plus.connection.API;
-import com.app.huaweiblogplus.plus.connection.RestAdapter;
-import com.app.huaweiblogplus.plus.connection.callbacks.CallbackListPage;
-import com.app.huaweiblogplus.plus.model.Page;
-import com.app.huaweiblogplus.plus.utils.NetworkCheck;
-import com.app.huaweiblogplus.plus.utils.Tools;
+import com.app.huaweiblogplus.ActivityMain;
+import com.app.huaweiblogplus.ActivityPageDetails;
+import com.app.huaweiblogplus.R;
+import com.app.huaweiblogplus.adapter.AdapterPageList;
+import com.app.huaweiblogplus.connection.API;
+import com.app.huaweiblogplus.connection.RestAdapter;
+import com.app.huaweiblogplus.connection.callbacks.CallbackListPage;
+import com.app.huaweiblogplus.model.Page;
+import com.app.huaweiblogplus.utils.NetworkCheck;
+import com.app.huaweiblogplus.utils.Tools;
 
 import java.util.ArrayList;
 import java.util.HashSet;
