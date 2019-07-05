@@ -16,6 +16,7 @@
     </string-array>
 
     <string-array name="settings_list_devices_titles">
+        <item> - - SMARTPHONES - - </item>
         <item>P30 Pro</item>
         <item>P30</item>
         <item>P30 Lite</item>
@@ -50,9 +51,29 @@
         <item>P9</item>
         <item>P9 Lite</item>
         <item>Mate S</item>
+        <item> - - TABLETS - - </item>
+        <item>MateBook E 2019</item>
+        <item>MateBook X Pro</item>
+        <item>MateBook X</item>
+        <item>MateBook 13</item>
+        <item>MateBook E</item>
+        <item>MateBook</item>
+        <item>MediaPad M2 10.0</item>
+        <item>MediaPad M3</item>
+        <item>MediaPad X2</item>
+        <item> - - WEARABLES - - </item>
+        <item>Watch GT</item>
+        <item>Watch 2</item>
+        <item>Watch</item>
+        <item>Fit</item>
+        <item>Band 2 Pro</item>
+        <item>TalkBand B3</item>
+
+
 
     </string-array>
     <string-array name="settings_list_devices_values">
+        <item>2407</item> <!-- Spacer Smartphones -->
         <item>2407</item> <!-- P30 Pro -->
         <item>2408</item> <!-- P30 -->
         <item>2442</item> <!-- P30 Lite-->
@@ -87,6 +108,23 @@
         <item>1294</item> <!-- P9 -->
         <item>1672</item> <!-- P9 Lite -->
         <item>1360</item> <!-- Mate S -->
+        <item>2503</item> <!-- Spacer Tablets-->
+        <item>2503</item> <!-- MateBook E 2019 -->
+        <item>2224</item> <!-- MateBook X Pro -->
+        <item>2187</item> <!-- MateBook X -->
+        <item>2388</item> <!-- MateBook 13 -->
+        <item>2101</item> <!-- MateBook E -->
+        <item>1642</item> <!-- MateBook -->
+        <item>1668</item> <!-- MediaPad M2 10.0 -->
+        <item>2020</item> <!-- MediaPad M3 -->
+        <item>1249</item> <!-- MediaPad X2 -->
+        <item>2368</item> <!-- Spacer Watches-->
+        <item>2368</item> <!-- Watch GT -->
+        <item>1837</item> <!-- Watch 2 -->
+        <item>1253</item> <!-- Watch -->
+        <item>2022</item> <!-- Fit -->
+        <item>2141</item> <!-- Band 2 Pro -->
+        <item>1983</item> <!-- TalkBand B3 -->
     </string-array>
 
 </resources>
