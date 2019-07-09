@@ -58,6 +58,7 @@
         <item>MateBook 13</item>
         <item>MateBook E</item>
         <item>MateBook</item>
+        <item>MediaPad M5</item>
         <item>MediaPad M2 10.0</item>
         <item>MediaPad M3</item>
         <item>MediaPad X2</item>
@@ -115,6 +116,7 @@
         <item>2388</item> <!-- MateBook 13 -->
         <item>2101</item> <!-- MateBook E -->
         <item>1642</item> <!-- MateBook -->
+        <item>2249</item> <!-- MediaPad M5  -->
         <item>1668</item> <!-- MediaPad M2 10.0 -->
         <item>2020</item> <!-- MediaPad M3 -->
         <item>1249</item> <!-- MediaPad X2 -->
