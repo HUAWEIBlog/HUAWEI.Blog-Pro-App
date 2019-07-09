@@ -26,6 +26,7 @@
     <string name="title_menu_settings">Einstellungen</string>
     <string name="title_menu_rate">Bewerten</string>
     <string name="title_menu_about">Über Uns</string>
+    <string name="title_menu_exit">Beenden</string>
     <string name="title_menu_refresh">Neu laden</string>
     <string name="title_menu_later">Später lesen</string>
     <string name="title_menu_share">Artikel teilen</string>

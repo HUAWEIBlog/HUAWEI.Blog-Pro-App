@@ -148,6 +148,8 @@ public class ActivityMain extends AppCompatActivity {
             Tools.rateAction(ActivityMain.this);
         } else if (id == R.id.action_about) {
             Tools.aboutAction(ActivityMain.this);
+        } else if (id == R.id.action_exit) {
+            Tools.exitAction(ActivityMain.this);
         }
 
         return super.onOptionsItemSelected(item);

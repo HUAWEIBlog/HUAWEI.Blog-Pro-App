@@ -97,6 +97,14 @@ public class Tools {
         builder.show();
     }
 
+    public static void exitAction(Activity activity) {
+        activity.finish();
+        android.os.Process.killProcess(android.os.Process.myPid());
+        System.exit(1);
+        Toast.makeText( activity.getApplicationContext(), "Closed Completely and Safely", Toast.LENGTH_LONG).show();
+
+    }
+
     public static void dialogCommentNeedLogin(final AppCompatActivity activity, final String url) {
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
         builder.setTitle(activity.getString(R.string.direct_to_browser_dialog_title));

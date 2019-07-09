@@ -20,7 +20,8 @@
 
         <activity android:name="com.app.huaweiblogplus.ActivityMain" />
 
-        <activity android:name="com.app.huaweiblogplus.ActivitySplash">
+        <activity android:name="com.app.huaweiblogplus.ActivitySplash"
+            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
