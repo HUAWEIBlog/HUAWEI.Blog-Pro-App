@@ -2,7 +2,7 @@ package com.app.huaweiblogplus;
 
 import android.app.Application;
 import android.os.Handler;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.text.TextUtils;
 
 import com.app.huaweiblogplus.connection.API;

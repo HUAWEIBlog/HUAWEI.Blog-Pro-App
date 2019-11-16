@@ -9,13 +9,6 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
-import android.support.annotation.LayoutRes;
-import android.support.annotation.Nullable;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatDelegate;
-import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -23,10 +16,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import androidx.annotation.LayoutRes;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatDelegate;
+import androidx.appcompat.widget.Toolbar;
+
 import com.app.huaweiblogplus.data.AppConfig;
 import com.app.huaweiblogplus.data.SharedPref;
 import com.app.huaweiblogplus.utils.PermissionUtil;
 import com.app.huaweiblogplus.utils.Tools;
+import com.google.android.material.snackbar.Snackbar;
 
 /**
  * ATTENTION : To see where list of setting comes is open res/xml/setting_preferences.xml
@@ -70,7 +71,7 @@ public class ActivitySettings extends PreferenceActivity {
                     return true;
                 } else {
                     Snackbar snackbar = Snackbar.make(parent_view, "Invalid Name Input", Snackbar.LENGTH_LONG);
-                    TextView textView = (TextView) snackbar.getView().findViewById(android.support.design.R.id.snackbar_text);
+                    TextView textView = (TextView) snackbar.getView().findViewById(com.google.android.material.R.id.snackbar_text);
                     textView.setTextColor(Color.YELLOW);
                     snackbar.show();
                     return false;
@@ -89,7 +90,7 @@ public class ActivitySettings extends PreferenceActivity {
                     return true;
                 } else {
                     Snackbar snackbar = Snackbar.make(parent_view, "Invalid Email Input", Snackbar.LENGTH_LONG);
-                    TextView textView = (TextView) snackbar.getView().findViewById(android.support.design.R.id.snackbar_text);
+                    TextView textView = (TextView) snackbar.getView().findViewById(com.google.android.material.R.id.snackbar_text);
                     textView.setTextColor(Color.YELLOW);
                     snackbar.show();
                     return false;

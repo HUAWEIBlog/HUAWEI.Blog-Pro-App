@@ -3,24 +3,24 @@ package com.app.huaweiblogplus;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.NavigationView;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.OvershootInterpolator;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.app.huaweiblogplus.data.AppConfig;
 import com.app.huaweiblogplus.data.Constant;
@@ -33,6 +33,8 @@ import com.app.huaweiblogplus.utils.Tools;
 import com.google.ads.mediation.admob.AdMobAdapter;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.navigation.NavigationView;
 
 public class ActivityMain extends AppCompatActivity {
 
@@ -205,6 +207,12 @@ public class ActivityMain extends AppCompatActivity {
             case R.id.nav_youtube:
                 Intent intent_y = new Intent(this, ActivityYouTube.class);
                 startActivity(intent_y);
+                break;
+            case R.id.nav_shop:
+                String url = "https://www.amazon.de/shop/huawei_blog";
+                Intent intent_sh = new Intent(Intent.ACTION_VIEW);
+                intent_sh.setData(Uri.parse(url));
+                startActivity(intent_sh);
                 break;
             /*case R.id.nav_setting:
                 Intent i = new Intent(getApplicationContext(), ActivitySettings.class);
