@@ -17,6 +17,10 @@
 
     <string-array name="settings_list_devices_titles">
         <item> - - SMARTPHONES - - </item>
+        <item>Mate 30 RS</item>
+        <item>Mate 30 Pro</item>
+        <item>Mate 30</item>
+        <item>Mate 30 lite</item>
         <item>P30 Pro</item>
         <item>P30</item>
         <item>P30 Lite</item>
@@ -63,6 +67,7 @@
         <item>MediaPad M3</item>
         <item>MediaPad X2</item>
         <item> - - WEARABLES - - </item>
+        <item>Watch GT 2</item>
         <item>Watch GT</item>
         <item>Watch 2</item>
         <item>Watch</item>
@@ -75,6 +80,10 @@
     </string-array>
     <string-array name="settings_list_devices_values">
         <item>2407</item> <!-- Spacer Smartphones -->
+        <item>2586</item> <!-- Mate 30 RS -->
+        <item>2546</item> <!-- Mate 30 Pro -->
+        <item>2571</item> <!-- Mate 30-->
+        <item>2544</item> <!-- Mate 30 Lite-->
         <item>2407</item> <!-- P30 Pro -->
         <item>2408</item> <!-- P30 -->
         <item>2442</item> <!-- P30 Lite-->
@@ -121,6 +130,7 @@
         <item>2020</item> <!-- MediaPad M3 -->
         <item>1249</item> <!-- MediaPad X2 -->
         <item>2368</item> <!-- Spacer Watches-->
+        <item>2585</item> <!-- Watch GT 2 -->
         <item>2368</item> <!-- Watch GT -->
         <item>1837</item> <!-- Watch 2 -->
         <item>1253</item> <!-- Watch -->

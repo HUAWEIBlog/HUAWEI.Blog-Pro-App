@@ -8,8 +8,8 @@ android {
         applicationId "app.huaweiblogplus"
         minSdkVersion 16
         targetSdkVersion 29
-        versionCode 39
-        versionName "1.2.1"
+        versionCode 41
+        versionName "1.2.3"
         multiDexEnabled true
     }
     buildTypes {
@@ -43,18 +43,18 @@ dependencies {
     // google library
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.cardview:cardview:1.0.0'
-    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
-    implementation 'com.google.firebase:firebase-core:17.2.1'
-    implementation 'com.google.firebase:firebase-messaging:20.0.1'
+    implementation 'com.google.firebase:firebase-core:17.2.2'
+    implementation 'com.google.firebase:firebase-messaging:20.1.0'
     implementation 'com.google.android.gms:play-services-ads:18.3.0'
     implementation 'com.google.android.gms:play-services-analytics:17.0.0'
-    implementation 'com.google.android.ads.consent:consent-library:1.0.7'
+    implementation 'com.google.android.ads.consent:consent-library:1.0.8'
 
     implementation 'androidx.cardview:cardview:1.0.0'
-    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.squareup.picasso:picasso:2.5.2'
     implementation 'com.google.apis:google-api-services-youtube:v3-rev182-1.22.0'

@@ -52,6 +52,7 @@ public class ActivitySettings extends PreferenceActivity {
         final PreferenceScreen preferenceScreen = getPreferenceScreen();
         final EditTextPreference prefName = (EditTextPreference) findPreference(getString(R.string.pref_title_name));
         final EditTextPreference prefEmail = (EditTextPreference) findPreference(getString(R.string.pref_title_email));
+        final EditTextPreference prefDevice = (EditTextPreference) findPreference(getString(R.string.settings_device_title));
         final Preference prefTerm = (Preference) findPreference(getString(R.string.pref_title_term));
         final Preference prefHeart = (Preference) findPreference(getString(R.string.pref_title_heart));
 
@@ -97,6 +98,12 @@ public class ActivitySettings extends PreferenceActivity {
                 }
             }
         });
+
+        try {
+            prefDevice.setSummary(sharedPref.getSmartphone());
+        }catch (Exception e){
+            System.out.println("onActivityResult consume crashed");
+        }
 
         Preference notifPref = (Preference) findPreference(getString(R.string.pref_title_notif));
         if (!PermissionUtil.isStorageGranted(this)) {
