@@ -10,8 +10,6 @@ import android.graphics.Point;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.Settings;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
 import android.telephony.TelephonyManager;
 import android.text.Html;
 import android.text.TextUtils;
@@ -27,6 +25,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.app.huaweiblogplus.ActivityWebView;
 import com.app.huaweiblogplus.R;
 import com.app.huaweiblogplus.connection.API;
@@ -35,8 +36,8 @@ import com.app.huaweiblogplus.connection.callbacks.CallbackInfo;
 import com.app.huaweiblogplus.data.AppConfig;
 import com.app.huaweiblogplus.data.SharedPref;
 import com.app.huaweiblogplus.model.Attachment;
-import com.app.huaweiblogplus.model.Category;
 import com.app.huaweiblogplus.model.Author;
+import com.app.huaweiblogplus.model.Category;
 import com.app.huaweiblogplus.model.DeviceInfo;
 import com.app.huaweiblogplus.model.Page;
 import com.app.huaweiblogplus.model.Post;
@@ -431,7 +432,7 @@ public class Tools {
         try {
             String url = Tools.getPostThumbnailUrl(p);
             if (!TextUtils.isEmpty(url)) {
-                Picasso.with(ctx).load(url).fit().centerInside().into(imageView);
+                Picasso.get().load(url).fit().centerInside().into(imageView);
             }
         } catch (Exception e) {
             Log.e("KORAN", "Failed when display image - " + e.getMessage());

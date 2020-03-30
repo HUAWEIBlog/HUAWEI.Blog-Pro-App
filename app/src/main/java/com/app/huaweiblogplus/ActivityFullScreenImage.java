@@ -2,12 +2,13 @@ package com.app.huaweiblogplus;
 
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.webkit.URLUtil;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.app.huaweiblogplus.widget.TouchImageView;
 import com.squareup.picasso.Callback;
@@ -40,17 +41,18 @@ public class ActivityFullScreenImage extends AppCompatActivity {
 
         image = (TouchImageView) findViewById(R.id.image);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
-        Picasso.with(this).load(url).fit().centerInside().into(image, new Callback() {
+        Picasso.get().load(url).fit().centerInside().into(image, new Callback() {
             @Override
             public void onSuccess() {
                 progressBar.setVisibility(View.GONE);
             }
 
             @Override
-            public void onError() {
+            public void onError(Exception e) {
                 finish();
                 Toast.makeText(getApplicationContext(), R.string.failed_when_open_image, Toast.LENGTH_SHORT).show();
             }
+
         });
 
         ((ImageButton) findViewById(R.id.btnClose)).setOnClickListener(new View.OnClickListener() {

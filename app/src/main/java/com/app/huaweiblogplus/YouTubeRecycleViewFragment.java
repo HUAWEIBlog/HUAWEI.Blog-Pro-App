@@ -2,9 +2,6 @@ package com.app.huaweiblogplus;
 
 import android.content.res.Resources;
 import android.os.Bundle;
-import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 import android.util.Pair;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +9,10 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.app.huaweiblogplus.YouTube.GetPlaylistAsyncTask;
 import com.app.huaweiblogplus.YouTube.GetPlaylistTitlesAsyncTask;
@@ -122,7 +123,7 @@ public class YouTubeRecycleViewFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // set the Picasso debug indicator only for debug builds
-        Picasso.with(getActivity()).setIndicatorsEnabled( BuildConfig.DEBUG);
+        Picasso.get().setIndicatorsEnabled( BuildConfig.DEBUG);
 
         // Inflate the layout for this fragment
         View rootView = inflater.inflate( R.layout.youtube_recycler_view_fragment, container, false);

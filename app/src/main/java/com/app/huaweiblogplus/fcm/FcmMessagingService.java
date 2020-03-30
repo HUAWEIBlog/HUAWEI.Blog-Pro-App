@@ -14,9 +14,10 @@ import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Vibrator;
-import androidx.core.app.NotificationCompat;
 import android.text.Html;
 import android.util.Log;
+
+import androidx.core.app.NotificationCompat;
 
 import com.app.huaweiblogplus.ActivityMain;
 import com.app.huaweiblogplus.ActivityPostDetails;
@@ -157,7 +158,7 @@ public class FcmMessagingService extends FirebaseMessagingService {
         myRunnable = new Runnable() {
             @Override
             public void run() {
-                Picasso.with(ctx).load(url).into(new Target() {
+                Picasso.get().load(url).into(new Target() {
                     @Override
                     public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
                         callback.onSuccess(bitmap);
@@ -165,7 +166,7 @@ public class FcmMessagingService extends FirebaseMessagingService {
                     }
 
                     @Override
-                    public void onBitmapFailed(Drawable errorDrawable) {
+                    public void onBitmapFailed(Exception e, Drawable errorDrawable) {
                         callback.onFailed("onBitmapFailed");
                         mainHandler.removeCallbacks(myRunnable);
                     }

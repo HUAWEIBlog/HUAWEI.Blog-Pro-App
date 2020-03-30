@@ -17,10 +17,14 @@
 
     <string-array name="settings_list_devices_titles">
         <item> - - SMARTPHONES - - </item>
+        <item>P40 Pro</item>
+        <item>P40</item>
+        <item>P40 Lite</item>
         <item>Mate 30 RS</item>
         <item>Mate 30 Pro</item>
         <item>Mate 30</item>
         <item>Mate 30 lite</item>
+        <item>Nova 5T</item>
         <item>P30 Pro</item>
         <item>P30</item>
         <item>P30 Lite</item>
@@ -80,10 +84,14 @@
     </string-array>
     <string-array name="settings_list_devices_values">
         <item>2407</item> <!-- Spacer Smartphones -->
+        <item>2680</item> <!-- P40 Pro -->
+        <item>2628</item> <!-- P40-->
+        <item>2661</item> <!-- P40 Lite-->
         <item>2586</item> <!-- Mate 30 RS -->
         <item>2546</item> <!-- Mate 30 Pro -->
         <item>2571</item> <!-- Mate 30-->
         <item>2544</item> <!-- Mate 30 Lite-->
+        <item>2605</item> <!-- Nova 5T-->
         <item>2407</item> <!-- P30 Pro -->
         <item>2408</item> <!-- P30 -->
         <item>2442</item> <!-- P30 Lite-->

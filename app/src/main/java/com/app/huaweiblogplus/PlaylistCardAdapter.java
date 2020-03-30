@@ -2,13 +2,14 @@ package com.app.huaweiblogplus;
 
 import android.content.Context;
 import android.content.Intent;
-import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.app.huaweiblogplus.model.PlaylistVideos;
 import com.google.api.services.youtube.model.Video;
@@ -119,7 +120,7 @@ public class PlaylistCardAdapter extends RecyclerView.Adapter<PlaylistCardAdapte
         //holder.mDescriptionText.setText(videoSnippet.getDescription());
 
         // load the video thumbnail image
-        Picasso.with(holder.mContext)
+        Picasso.get()
                 .load(videoSnippet.getThumbnails().getHigh().getUrl())
                 .placeholder(R.drawable.video_placeholder)
                 .into(holder.mThumbnailImage);
