@@ -5,6 +5,7 @@ import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.preference.EditTextPreference;
+import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
@@ -98,6 +99,19 @@ public class ActivitySettings extends PreferenceActivity {
                 }
             }
         });
+
+        ListPreference themePreference = (ListPreference) findPreference("themePref");
+        if (themePreference != null) {
+            themePreference.setOnPreferenceChangeListener(
+                    new Preference.OnPreferenceChangeListener() {
+                        @Override
+                        public boolean onPreferenceChange(Preference preference, Object newValue) {
+                            String themeOption = (String) newValue;
+                            ThemeHelper.applyTheme(themeOption);
+                            return true;
+                        }
+                    });
+        }
 
         try {
             prefDevice.setSummary(sharedPref.getSmartphone());

@@ -113,7 +113,8 @@
     <string name="settings_device_summary">Klicken zum wählen</string>
     <string name="settings_device_title">Lieblingsgerät</string>
 
-
+    <!-- Theme settings -->
+    <string name="settings_theme_title">Design wählen</string>
 
     <!--exit notification-->
     <string name="press_again_exit_app">Zum Beenden noch einmal drücken.</string>

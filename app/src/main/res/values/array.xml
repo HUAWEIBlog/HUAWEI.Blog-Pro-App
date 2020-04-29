@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string-array name="themeListArray">
+        <item>Hell</item>
+        <item>Dunkel</item>
+        <item>Durch Energiesparmodus</item>
+    </string-array>
+
+    <string-array name="themeEntryArray">
+        <item>light</item>
+        <item>dark</item>
+        <item>default</item>
+    </string-array>
+
     <!-- if you want to filter category. please list down category id you want to hide here. -->
     <!-- you can see id from this url http://your-web.com/?json=get_category_index-->
     <string-array name="category_id_filter">
