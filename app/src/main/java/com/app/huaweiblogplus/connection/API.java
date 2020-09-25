@@ -24,7 +24,7 @@ import retrofit2.http.Query;
 public interface API {
 
     /* your wordPress url */
-    String BASE_URL = "https://www.huaweiblog.de/api/";
+    String BASE_URL = "https://api.huaweiblog.de/api/";
 
 
     // minimize field for list of post

@@ -2,14 +2,14 @@ apply plugin: 'com.android.application'
 apply plugin: 'realm-android'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
 
     defaultConfig {
         applicationId "app.huaweiblogplus"
         minSdkVersion 27
-        targetSdkVersion 29
-        versionCode 52
-        versionName "1.7.1"
+        targetSdkVersion 30
+        versionCode 53
+        versionName "1.7.2"
         multiDexEnabled true
     }
     buildTypes {
@@ -43,35 +43,35 @@ configurations {
  * Be careful when update dependencies, different version library may caused error */
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    testImplementation 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.13'
     // google library
-    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
-    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
-    implementation 'com.google.firebase:firebase-core:17.3.0'
-    implementation 'com.google.firebase:firebase-messaging:20.1.5'
-    implementation 'com.google.android.gms:play-services-ads:19.1.0'
+    implementation 'com.google.firebase:firebase-core:17.5.0'
+    implementation 'com.google.firebase:firebase-messaging:20.2.4'
+    implementation 'com.google.android.gms:play-services-ads:19.4.0'
     implementation 'com.google.android.gms:play-services-analytics:17.0.0'
     implementation 'com.google.android.ads.consent:consent-library:1.0.8'
 
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
-    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.google.apis:google-api-services-youtube:v3-rev182-1.22.0'
-    implementation 'com.google.http-client:google-http-client-android:1.20.0'
-    implementation 'com.google.api-client:google-api-client-android:1.20.0'
-    implementation 'com.google.api-client:google-api-client-gson:1.20.0'
+    implementation 'com.google.http-client:google-http-client-android:1.35.0'
+    implementation 'com.google.api-client:google-api-client-android:1.30.9'
+    implementation 'com.google.api-client:google-api-client-gson:1.30.9'
 
     implementation 'com.google.apis:google-api-services-youtube:v3-rev206-1.25.0'
     //implementation group: 'commons-io', name: 'commons-io', version: '2.4'
 
-    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
-    implementation 'com.squareup.okhttp3:logging-interceptor:3.6.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.6.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.6.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.2.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
 
     // ripple effect library
