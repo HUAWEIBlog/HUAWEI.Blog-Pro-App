@@ -8,8 +8,8 @@ android {
         applicationId "app.huaweiblogplus"
         minSdkVersion 27
         targetSdkVersion 30
-        versionCode 54
-        versionName "1.7.3"
+        versionCode 55
+        versionName "1.7.4"
         multiDexEnabled true
     }
     buildTypes {

@@ -29,6 +29,7 @@
 
     <string-array name="settings_list_devices_titles">
         <item> - - SMARTPHONES - - </item>
+        <item>P40 Pro+</item>
         <item>P40 Pro</item>
         <item>P40</item>
         <item>P40 Lite</item>
@@ -83,6 +84,7 @@
         <item>MediaPad M3</item>
         <item>MediaPad X2</item>
         <item> - - WEARABLES - - </item>
+        <item>Watch GT 2 Pro</item>
         <item>Watch GT 2</item>
         <item>Watch GT</item>
         <item>Watch 2</item>
@@ -95,31 +97,32 @@
 
     </string-array>
     <string-array name="settings_list_devices_values">
-        <item>2407</item> <!-- Spacer Smartphones -->
-        <item>2680</item> <!-- P40 Pro -->
-        <item>2628</item> <!-- P40-->
-        <item>2661</item> <!-- P40 Lite-->
-        <item>2586</item> <!-- Mate 30 RS -->
-        <item>2546</item> <!-- Mate 30 Pro -->
-        <item>2571</item> <!-- Mate 30-->
-        <item>2544</item> <!-- Mate 30 Lite-->
-        <item>2605</item> <!-- Nova 5T-->
-        <item>2407</item> <!-- P30 Pro -->
-        <item>2408</item> <!-- P30 -->
-        <item>2442</item> <!-- P30 Lite-->
-        <item>2467</item> <!-- Y7 (2019)-->
-        <item>2376</item> <!-- Mate X-->
-        <item>2395</item> <!-- Mate20 X -->
-        <item>2323</item> <!-- Mate20 RS Porsche -->
-        <item>2194</item> <!-- Mate20 Pro -->
-        <item>2350</item> <!-- Mate20 -->
-        <item>2197</item> <!-- Mate20 Lite -->
-        <item>2274</item> <!-- Y6 (2018)-->
-        <item>2244</item> <!-- Y5 (2018)-->
-        <item>2239</item> <!-- P20 Pro -->
-        <item>2182</item> <!-- P20 -->
-        <item>2195</item> <!-- P20 Lite -->
-        <item>2172</item> <!-- Mate10 Porsche Design -->
+        <item>1602</item> <!-- Spacer Smartphones -->
+        <item>1602</item> <!-- P40 Pro+ -->
+        <item>1597</item> <!-- P40 Pro -->
+        <item>1546</item> <!-- P40-->
+        <item>1582</item> <!-- P40 Lite-->
+        <item>1512</item> <!-- Mate 30 RS -->
+        <item>1479</item> <!-- Mate 30 Pro -->
+        <item>1500</item> <!-- Mate 30-->
+        <item>1477</item> <!-- Mate 30 Lite-->
+        <item>1527</item> <!-- Nova 5T-->
+        <item>1398</item> <!-- P30 Pro -->
+        <item>1396</item> <!-- P30 -->
+        <item>1397</item> <!-- P30 Lite-->
+        <item>1128</item> <!-- Y7 (2019)-->
+        <item>1333</item> <!-- Mate X-->
+        <item>1348</item> <!-- Mate20 X -->
+        <item>1292</item> <!-- Mate20 RS Porsche -->
+        <item>1192</item> <!-- Mate20 Pro -->
+        <item>1310</item> <!-- Mate20 -->
+        <item>1191</item> <!-- Mate20 Lite -->
+        <item>1256</item> <!-- Y6 (2018)-->
+        <item>1234</item> <!-- Y5 (2018)-->
+        <item>1230</item> <!-- P20 Pro -->
+        <item>1193</item> <!-- P20 -->
+        <item>1194</item> <!-- P20 Lite -->
+        <item>2172</item> <!-- Mate10 Porsche Design !!! REPAIR FROM HERE !!!-->
         <item>2157</item> <!-- Mate10 Pro -->
         <item>2094</item> <!-- Mate10 -->
         <item>2153</item> <!-- Mate10 Lite -->
@@ -137,26 +140,27 @@
         <item>1754</item> <!-- P9 Plus -->
         <item>1294</item> <!-- P9 -->
         <item>1672</item> <!-- P9 Lite -->
-        <item>1360</item> <!-- Mate S -->
-        <item>2503</item> <!-- Spacer Tablets-->
-        <item>2503</item> <!-- MateBook E 2019 -->
-        <item>2224</item> <!-- MateBook X Pro -->
-        <item>2187</item> <!-- MateBook X -->
-        <item>2388</item> <!-- MateBook 13 -->
-        <item>2101</item> <!-- MateBook E -->
-        <item>1642</item> <!-- MateBook -->
-        <item>2249</item> <!-- MediaPad M5  -->
-        <item>1668</item> <!-- MediaPad M2 10.0 -->
-        <item>2020</item> <!-- MediaPad M3 -->
-        <item>1249</item> <!-- MediaPad X2 -->
-        <item>2368</item> <!-- Spacer Watches-->
-        <item>2585</item> <!-- Watch GT 2 -->
-        <item>2368</item> <!-- Watch GT -->
-        <item>1837</item> <!-- Watch 2 -->
-        <item>1253</item> <!-- Watch -->
-        <item>2022</item> <!-- Fit -->
-        <item>2141</item> <!-- Band 2 Pro -->
-        <item>1983</item> <!-- TalkBand B3 -->
+        <item>1360</item> <!-- Mate S  !!! REPAIR UNTIL HERE !!!-->
+        <item>1439</item> <!-- Spacer Tablets-->
+        <item>1439</item> <!-- MateBook E 2019 -->
+        <item>1215</item> <!-- MateBook X Pro -->
+        <item>1181</item> <!-- MateBook X -->
+        <item>1413</item> <!-- MateBook 13 -->
+        <item>1116</item> <!-- MateBook E -->
+        <item>1102</item> <!-- MateBook -->
+        <item>1201</item> <!-- MediaPad M5  -->
+        <item>881</item> <!-- MediaPad M2 10.0 -->
+        <item>1079</item> <!-- MediaPad M3 -->
+        <item>706</item> <!-- MediaPad X2 -->
+        <item>1699</item> <!-- Spacer Watches-->
+        <item>1699</item> <!-- Watch GT 2 Pro -->
+        <item>1513</item> <!-- Watch GT 2 -->
+        <item>1326</item> <!-- Watch GT -->
+        <item>993</item> <!-- Watch 2 -->
+        <item>691</item> <!-- Watch -->
+        <item>1698</item> <!-- Fit -->
+        <item>1147</item> <!-- Band 2 Pro -->
+        <item>1057</item> <!-- TalkBand B3 -->
     </string-array>
 
 </resources>

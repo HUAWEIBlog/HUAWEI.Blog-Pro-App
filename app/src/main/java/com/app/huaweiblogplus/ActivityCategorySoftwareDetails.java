@@ -3,21 +3,21 @@ package com.app.huaweiblogplus;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import com.google.android.material.snackbar.Snackbar;
-import androidx.core.app.ActivityCompat;
-import androidx.core.app.ActivityOptionsCompat;
-import androidx.core.view.ViewCompat;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.appcompat.widget.Toolbar;
 import android.text.Html;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.app.ActivityCompat;
+import androidx.core.app.ActivityOptionsCompat;
+import androidx.core.view.ViewCompat;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.app.huaweiblogplus.adapter.AdapterPostListModern;
 import com.app.huaweiblogplus.connection.API;
@@ -27,6 +27,7 @@ import com.app.huaweiblogplus.data.Constant;
 import com.app.huaweiblogplus.model.Category;
 import com.app.huaweiblogplus.model.Post;
 import com.app.huaweiblogplus.utils.NetworkCheck;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -155,7 +156,7 @@ public class ActivityCategorySoftwareDetails extends AppCompatActivity {
 
     private void requestPostApi(final long page_no) {
         API api = RestAdapter.createAPI();
-        callbackCall = api.getCategoryDetailsByPage(1758, page_no, Constant.POST_PER_REQUEST);
+        callbackCall = api.getCategoryDetailsByPage(936, page_no, Constant.POST_PER_REQUEST);
         callbackCall.enqueue(new Callback<CallbackCategoryDetails>() {
             @Override
             public void onResponse(Call<CallbackCategoryDetails> call, Response<CallbackCategoryDetails> response) {
