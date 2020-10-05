@@ -8,8 +8,8 @@ android {
         applicationId "app.huaweiblogplus"
         minSdkVersion 27
         targetSdkVersion 30
-        versionCode 53
-        versionName "1.7.2"
+        versionCode 54
+        versionName "1.7.3"
         multiDexEnabled true
     }
     buildTypes {
@@ -52,7 +52,7 @@ dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
     implementation 'com.google.firebase:firebase-core:17.5.0'
-    implementation 'com.google.firebase:firebase-messaging:20.2.4'
+    implementation 'com.google.firebase:firebase-messaging:20.3.0'
     implementation 'com.google.android.gms:play-services-ads:19.4.0'
     implementation 'com.google.android.gms:play-services-analytics:17.0.0'
     implementation 'com.google.android.ads.consent:consent-library:1.0.8'

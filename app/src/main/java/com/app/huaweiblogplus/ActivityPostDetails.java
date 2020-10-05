@@ -8,16 +8,6 @@ import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
-import com.google.android.material.snackbar.Snackbar;
-import androidx.core.app.ActivityCompat;
-import androidx.core.app.ActivityOptionsCompat;
-import androidx.core.view.ViewCompat;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.appcompat.widget.Toolbar;
 import android.text.Html;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -37,6 +27,16 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.app.ActivityCompat;
+import androidx.core.app.ActivityOptionsCompat;
+import androidx.core.view.ViewCompat;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+
 import com.app.huaweiblogplus.adapter.AdapterComments;
 import com.app.huaweiblogplus.connection.API;
 import com.app.huaweiblogplus.connection.RestAdapter;
@@ -54,6 +54,7 @@ import com.balysv.materialripple.MaterialRippleLayout;
 import com.google.ads.mediation.admob.AdMobAdapter;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
@@ -200,20 +201,14 @@ public class ActivityPostDetails extends AppCompatActivity {
         customViewContainer = (FrameLayout) findViewById( R.id.customViewContainer );
         ((TextView) findViewById( R.id.title )).setText( Html.fromHtml( post.title ) );
 
-        String html_data = "<style>img{max-width:100%;height:auto;} figure{max-width:100%;height:auto;} iframe{width:100%;} a:link { color: #e53232; } .wp-block-blockgallery-carousel, .wp-block-blockgallery-carousel .blockgallery { height: 100%; position: relative; margin-bottom: 400px !important; } .post-content, .post-share { line-height: 1.857; font-size: 16px !important; position: relative; }</style> " +
+        String html_data = "<style>img{max-width:100%;height:auto;} figure{max-width:100%;height:auto;} iframe{width:100%;} a:link { color: #e53232; } .wp-block-blockgallery-carousel, .wp-block-blockgallery-carousel .blockgallery { height: 100%; position: relative; margin-bottom: 400px !important; } .post-content, .post-share { line-height: 1.857; font-size: 16px !important; position: relative; } .shariff ul {display:none !important;}</style> " +
                 "<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>" +
-                "<script type='text/javascript' src='https://www.huaweiblog.de/wp-content/themes/smart-mag/js/jquery.flexslider-min.js?ver=2.6.2'></script>" +
                 "<script type='text/javascript' src='https://www.huaweiblog.de/wp-content/plugins/borlabs-cookie/javascript/borlabs-cookie.min.js?ver=1.9.7'></script>" +
-                "<script type='text/javascript' src='https://www.huaweiblog.de/wp-content/themes/smart-mag/js/bunyad-theme.js?ver=2.6.2'></script>" +
                 "<script type='text/javascript' src='https://www.huaweiblog.de/wp-content/plugins/live-blogging-plus/live-blogging.min.js?ver=5.0.3'></script>" +
-                "<script type='text/javascript' src='https://www.huaweiblog.de/wp-content/themes/smart-mag/js/jquery.prettyPhoto.js?ver=5.0.3'></script>" +
                 "<script type='text/javascript' src='https://www.huaweiblog.de/wp-content/plugins/ultimate-responsive-image-slider/js/jquery.sliderPro.js?ver=1.4.0'></script>" +
                 "<script type=\"text/javascript\" src=\"https://www.huaweiblog.de/wp-content/plugins/aawp/public/assets/js/scripts.min.js?ver=3.8.9\"></script>" +
                 "<link rel=\"stylesheet\" id=\"aawp-css\" href=\"https://www.huaweiblog.de/wp-content/plugins/aawp/public/assets/css/styles.min.css?ver=3.8.9\" type=\"text/css\" media=\"all\">" +
-                "<link rel='stylesheet' id='smartmag-core-css'  href='https://www.huaweiblog.de/wp-content/themes/smart-mag-child/style.css?ver=2.6.2' type='text/css' media='all' />" +
-                "<link rel='stylesheet' id='smartmag-responsive-css'  href='https://www.huaweiblog.de/wp-content/themes/smart-mag/css/responsive.css?ver=2.6.2' type='text/css' media='all' />" +
                 "<link rel='stylesheet' id='pretty-photo-css'  href='https://www.huaweiblog.de/wp-content/themes/smart-mag/css/prettyPhoto.css?ver=2.6.2' type='text/css' media='all' />" +
-                "<link rel='stylesheet' id='smartmag-font-awesome-css'  href='https://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css?ver=5.0.3' type='text/css' media='all' />" +
                 "<script type=\"text/javascript\" src=\"https://www.huaweiblog.de/wp-content/plugins/block-gallery/dist/js/vendors/flickity.min.js?ver=1.1.5\"></script>" +
                 "<link rel=\"stylesheet\" id=\"block-gallery-frontend-css\" href=\"https://www.huaweiblog.de/wp-content/cache/asset-cleanup/css/min/block-gallery-frontend-v1.1.5.css\" type=\"text/css\" media=\"all\">" +
                 "<link rel='stylesheet' id='ris-slider-css-css'  href='https://www.huaweiblog.de/wp-content/plugins/ultimate-responsive-image-slider/css/slider-pro.css?ver=5.0.3' type='text/css' media='all' />";

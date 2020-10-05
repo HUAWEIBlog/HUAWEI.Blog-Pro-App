@@ -25,12 +25,13 @@ public interface API {
 
     /* your wordPress url */
     String BASE_URL = "https://api.huaweiblog.de/api/";
+    //String BASE_URL = "https://api.huaweiblog.de/wp-json/wp/v2/";
 
 
     // minimize field for list of post
     String EXCLUDE_FIELD = "&exclude=content,categories,tags,comments,custom_fields";
     String EXCLUDE_FIELD_PAGE = "&exclude=content,categories,tags,comments,custom_fields,attachments,author";
-    String USER_AGENT = "HuaweiBlogApp";
+    String USER_AGENT = "HuaweiBlogAppPlus";
 
     /* info API transaction ------------------------------- */
 
