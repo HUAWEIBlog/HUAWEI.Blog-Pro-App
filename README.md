@@ -1,1 +1,0 @@
-Hier ist der Text der Readme - Muss noch erweitert werden :-D 

@@ -9,12 +9,12 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:orientation="vertical"
-        android:paddingBottom="@dimen/spacing_xxlarge">
+        android:paddingBottom="@dimen/spacing_xl">
 
         <ImageView
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:src="@drawable/splash_icon_huaweiblog2" />
+            android:src="@drawable/ic_launcher" />
     </LinearLayout>
 
     <LinearLayout
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="@dimen/spacing_xxlarge"
+        android:layout_marginBottom="@dimen/spacing_xl"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -30,16 +30,16 @@
             android:id="@+id/progressBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/spacing_middle" />
+            android:layout_marginBottom="@dimen/spacing_m" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Huawei.Blog+ App"
+            android:text="@string/app_name"
             android:textAllCaps="true"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-            android:textColor="@color/grey_medium"
+            android:textColor="@color/grey_dark"
             android:textStyle="bold" />
 
         <TextView
@@ -47,9 +47,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/heart"
+            android:text="@string/pref_title_heart"
             android:textAllCaps="true"
-            android:textColor="@color/grey_medium"/>
+            android:textColor="@color/grey_dark"/>
 
     </LinearLayout>
 

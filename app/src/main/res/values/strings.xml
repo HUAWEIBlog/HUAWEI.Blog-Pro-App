@@ -1,152 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="appName">Huawei.Blog+</string>
+    <!--
+    This document contains:
+    -Required setup information
+    -Strings for translation
 
+    Notations:
+    -When a string value starts en ends with a " this is only to maintain spaces, the " will not be visible
+    -To do a line break, use \n and to escape characters use \character (e.g.: \" will make the " visible)
+    -->
+
+    <string name="app_name">HUAWEI Blog Plus</string>
     <string name="developer_email">dev@huaweiblog.de</string>
-    <string name="copyright">Copyright © 2019 Huawei.Blog. \nAll rights reserved</string>
-    <string name="heart">Gemacht mit ❤ in Düsseldorf</string>
-    <string name="dialog_about_title">Über Uns</string>
-    <string name="about_text">
-        <![CDATA[<p>2012 hat unser &lt;3 Projekt das Licht der Welt erblickt. 6 Jahre berichten wir jetzt schon &uuml;ber Themen rund um unseren Lieblingshersteller HUAWEI.<br />Wir sind kein offizieller HUAWEI Blog, sondern machen das ausschlie&szlig;lich aus Spa&szlig; an der Freude. Als Hobby, Zeitvertreib und weil wir alle technikinteressiert sind.<br />Rainer, der Gr&uuml;nder und Inhaber des Blogs hatte vor &uuml;ber 5 Jahren einen Bericht in der S&uuml;ddeutschen gelesen, in dem ein noch relativ unbekannter Richard Yu &uuml;ber die Ziele seines Unternehmens gesprochen hatte. Yu wolle innerhalb der n&auml;chsten Jahre unter die Top 3 der Smartphone Hersteller kommen und auf lange Sicht Samsung und Apple vom Thron sto&szlig;en.<br />Dieser ambitionierte Ansatz brachte Rainer dazu einen Blog aus der Taufe zu heben, der sich ausschlie&szlig;lich um Huawei drehen sollte. Was daraus wurde und dass es Richard Yu mit seinem Unternehmen aus Shenzhen China geschafft hatte, das seht ihr hier.</p>
-<p>Am HUAWEI.blog werkeln immer so um die 10 Leute in ihrer Freizeit mit. Von Anfang an dabei sind Marco und Rainer P. Die beiden haben mit Abstand die meisten Beitr&auml;ge f&uuml;r euch verfasst und beide kann man wohl als ausgewiesene HUAWEI Experten betiteln.<br />Langj&auml;hrige Mitglieder des Teams sind Ronny (der sich vor allem mit Themes auseinander setzt), Berit (eine Frau im Team braucht man(n) ;)) und Dominik (Tausendsassa, sowohl in CBG, als auch Enterprise).<br />Unser Sascha werkelt meist im Hintergrund an der technischen Umsetzung als Sys-Admin und auch als "Vater" an dieser App. Ab und an kommen auch von ihm Beitr&auml;ge, dann meist rund um das Thema Enterprise, dem wir uns seit 2017 Jahr auch verst&auml;rkt widmen. HUAWEI ist ja schlie&szlig;lich in der Netzwerk Sparte gro&szlig; geworden.</p>]]>
-    </string>
-
-    <string name="sample_name">AppUser</string>
-    <string name="sample_email">fan-app@testmail.com</string>
-
-    <string name="activity_title_webview">Web View</string>
-    <string name="activity_title_settings">Einstellungen</string>
-    <string name="activity_title_send_comment">Kommentar absenden</string>
-
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-
-    <!-- Toolbar menu string -->
-    <string name="default_notification_channel_id">Standard</string>
-    <string name="title_menu_settings">Einstellungen</string>
-    <string name="title_menu_rate">Bewerten</string>
-    <string name="title_menu_about">Über Uns</string>
-    <string name="title_menu_exit">Beenden</string>
-    <string name="title_menu_refresh">Neu laden</string>
-    <string name="title_menu_later">Später lesen</string>
-    <string name="title_menu_share">Artikel teilen</string>
-    <string name="title_menu_browser">Im Browser öffnen</string>
-    <string name="title_menu_tipps">Tipps &amp; Tricks</string>
-
-
-    <string name="webview_loading">Lade mehr... </string>
-
-    <!-- Youtube string -->
-    <string name="search">Suche</string>
-    <string name="failed">Initialisierung von Youtube schlug leider fehl!</string>
-
-    <!--navigation title-->
-    <string name="title_nav_home">Home</string>
-    <string name="title_nav_category">Kategorien</string>
-    <string name="title_nav_page">Seiten</string>
-    <string name="title_nav_later">Später</string>
-    <string name="title_nav_setting">Einstellungen</string>
-    <string name="title_nav_rate">Bewerten</string>
-    <string name="title_nav_about">Über Uns</string>
-    <string name="title_nav_android">Software</string>
-    <string name="title_nav_devices">Smartphones</string>
-    <string name="title_nav_enterprise">Enterprise</string>
-    <string name="title_nav_youtube">Videos</string>
-    <string name="title_nav_shop">HUAWEI.Blog Shop</string>
-    <string name="title_nav_preferences">Lieblingsgerät</string>
-    <string name="sub_title_nav_others">Anderes</string>
-    <string name="sub_title_nav_fields">Bereiche</string>
-
-    <!-- Activity Setting : xml/setting_preference.xml -->
-    <string name="pref_group_profile">PROFIL</string>
-    <string name="pref_group_notif">BENACHRICHTIGUNG</string>
-    <string name="pref_group_others">ANDERES</string>
-    <string name="pref_title_name">Dein Name</string>
-    <string name="pref_title_email">Deine E-Mail</string>
-    <string name="pref_title_notif">Push Benachrichtigung</string>
-    <string name="pref_title_ringtone">Klingelton</string>
-    <string name="pref_title_vibrate">Vibration</string>
-    <string name="pref_title_copyright">Copyright</string>
-    <string name="pref_title_dev_email">Entwickler Kontakt</string>
-    <string name="pref_title_build">Build Version</string>
-    <string name="pref_title_term">Term &amp; Policies</string>
     <string name="pref_title_heart">Gemacht mit ❤ in Düsseldorf</string>
-    <string name="pref_title_dsgvo">Privater Modus</string>
-    <string name="pref_title_dsgvo_text">Standardmäßig ist der Privatmodus aktiviert. Wir speichern grundsätzlich keine personenbezogenen Daten! Wenn du das volle Nutzererlebnis unserer HUAWEI.blog App erfahren willst, solltest du den Privaten Modus deaktivieren. Dann kannst du z.B. auch die Kommentarfunktion nutzen. Wenn du wissen willst, welche Daten wir speichern und wie lange, schau doch in unseren Datenschutzbestimmungen nach.</string>
-    <string name="default_your_name">AppUser</string>
-    <string name="default_your_email">fan-app@testmail.com</string>
-    <string name="grant_permission_storage">Speicherzugriff gewähren</string>
+    <string name="pref_title_term">Terms &amp; Policies</string>
+    <string name="pref_title_dev_email">Entwickler Kontakt</string>
+    <string name="toast_quit">Zum Beenden nochmal wischen!</string>
 
-    <!-- Other Strings -->
-    <string name="no_internet_text">Keine Internet Verbindung.</string>
-    <string name="no_post">Kein Artikel</string>
-    <string name="no_page">Keine Seite</string>
-    <string name="no_category">Keine Kategorie</string>
-    <string name="no_post_found">Nicht gefunden</string>
-    <string name="failed_text">Daten konnten nicht geladen werden.</string>
-    <string name="failed_text_comment">Fehler beim Senden des Kommentars. Versuche es bitte später erneut.</string>
-    <string name="valid_text_comment">Dein Kommentar ist abgesendet worden.</string>
-    <string name="no_dsgvo_comment">Privater Modus aktiv!</string>
-    <string name="no_inet_text_comment">Keine Internet Verbindung. Versuche es später erneut.</string>
-    <string name="after_send_comment">Dein Kommentarstatus ist</string>
-    <string name="retry_txt">ERNEUT VERSUCHEN</string>
-    <string name="show_tv_comments">Kommentare</string>
-    <string name="send_tv_comments">Kommentieren</string>
-    <string name="send_tv_social">Teilen</string>
-    <string name="count_bt_comments"> Kommentare</string>
-    <string name="msg_search_input">Bitte die Suchmaske ausfüllen.</string>
-    <string name="task_running_msg">Ops, die Anfrage läuft noch.</string>
-    <string name="post_detail_displayed_msg">Artikeldetails anzeigen</string>
-    <string name="page_detail_displayed_msg">Seitendetails anzeigen</string>
-    <string name="post_have_no_comment">Dieser Artikel hat keine Kommentare.</string>
-    <string name="cannot_add_to_read_later">Kann den Artikel nicht zur Read Later Liste hinzufügen.</string>
-    <string name="invalid_image_url">Fehlerhafte Bild-URL</string>
-    <string name="failed_when_open_image">Fehler beim Öffnen des Bildes.</string>
-    <string name="remove_from_msg">entfernen von</string>
-    <string name="added_to_msg">hinzufügen zu</string>
-    <string name="comments_bottom_message">
-        Dein Kommentar wird akzeptiert, wenn er nicht doppelt, mehrfach hintereinander, dem Thema entsprechend ist.
-    </string>
+    <!-- Shortcuts -->
+    <string name="compose_shortcut_short_label1">Lieblingsgeräte</string>
+    <string name="compose_shortcut_long_label1">Lieblingsgeräte</string>
+    <string name="compose_disabled_message1">Shortcut deaktivieren</string>
+
+    <!-- DeepLinks -->
+    <string name="filter_view_http">HUAWEI Blog Plus</string>
+    <string name="filter_view_hwblgnews">HUAWEI Blog Plus</string>
+
+    <!-- API keys -->
+    <string name="twitter_api_consumer_key">gbsWrBY6VbvfJ77iZJVYxxKpe</string>
+    <string name="twitter_api_consumer_secret_key">hWJO1x6IYqYmKzKExE4EJmvrILy05GUHMvZYUTyFMNjgyW9SOo</string>
+
+    <string name="google_maps_key"></string>
+
+    <string name="pinterest_access_token"></string>
+    <string name="soundcloud_id"></string>
+    <string name="flickr_key"></string>
+    <string name="tumblr_key"></string>
+    <string name="vimeo_access_token"></string>
+
+    <string name="woocommerce_consumer_key"></string>
+    <string name="woocommerce_consumer_secret"></string>
+    <string name="woocommerce_url"></string>
+
+    <string name="onesignal_app_id_hms">cba9e0e5-bfd2-4c25-99e4-9a8dde7d8986</string>
+    <string name="onesignal_hms_project_number">436068194488</string>
+    <string name="onesignal_app_id">2bada061-cd7d-45b4-9ab3-9194b4c08ed8</string>
+    <string name="onesignal_google_project_number">436068194488</string>
+
+    <!-- Theme settings -->
+    <string name="settings_theme_title">Design</string>
+    <string name="settings_device_summary">Klicken zum Wählen</string>
+
+    <!-- Privacy Policy Url -->
+    <string name="privacy_policy_url">http://www.huaweiblog.de/impressum/#datenschutz</string>
+
+    <!-- About text, you can use basic html, stay between [ and ] -->
+    <string name="about_text"><![CDATA[<b>Version 8.0.1</b> <br><br>Danke für den Download unserer App<br><br> <i>Copyright © 2020 Huawei.Blog. \nAll rights reserved</i>]]></string>
+
+    <!-- Enter your Google Play billing details to enable In-App purchases -->
+    <string name="google_play_license"></string>
+    <string name="product_id"></string>
+
+    <!-- Enter a ADMOB ID if you would like to display ads-->
+    <string name="admob_banner_id">ca-app-pub-1746953584716816/7925923761</string>
+    <string name="admob_interstitial_id"></string>
+
+    <!-- Strings for optional translation below this line -->
 
     <!-- Device Array -->
     <string name="settings_device_dialog_title">Geräteauswahl</string>
-    <string name="settings_device_summary">Klicken zum wählen</string>
     <string name="settings_device_title">Lieblingsgerät</string>
 
-    <!-- Theme settings -->
-    <string name="settings_theme_title">Design wählen</string>
+    <!-- privacy -->
+    <string name="privacy_policy_header">DSGVO</string>
+    <string name="privacy_policy_summary"><![CDATA[Uns ist der Schutz der Daten unserer Nutzer wichtig. Wenn Du diese App nutzt, stimmst Du unseren Bestimmungen zum Datenschutz zu, also auch die Nutzung von Cookies durch Drittanbieter solange sie mit unserer <a href="%1$s">Datenschutzerklärung vereinbar sind</a>.]]></string>
+    <string name="privacy_policy_agreement">Durch klicken von \'Ich stimme zu\', stimme ich den Datenschutzbestimmungen von HUAWEI.Blog zu und darf die App weiter nutzen.</string>
+    <string name="privacy_policy_agree_button">Ich stimme zu</string>
 
-    <!--exit notification-->
-    <string name="press_again_exit_app">Zum Beenden noch einmal drücken.</string>
+    <!-- twitter section -->
+    <string name="name">Name</string>
+    <string name="username">Nutzername</string>
+    <string name="profile_image">Profilbild</string>
+    <string name="message">Nachricht</string>
 
+    <string name="tweet_share_header">\'s tweet</string>
 
-    <string name="direct_to_browser_dialog_title">Bestätige das öffnen im Browser.</string>
-    <string name="direct_to_browser_dialog_text">
-        Du musst angemeldet sein, um einen Kommentar in der App zu schreiben.
-        \nWebseite im Browser öffnen?
-    </string>
+    <!-- rss -->
+    <string name="ok">Ok</string>
+    <string name="feed_title_value">Feed title</string>
+    <string name="feed_link_value">Feed description</string>
+    <string name="feed_description_value">Feed link</string>
 
-    <string name="invalid_name">Ungültiger Name</string>
-    <string name="invalid_email">Ungültige e-Mail</string>
-    <string name="invalid_comment">Ungültiger Kommentar</string>
-    <string name="bt_submit">ABSENDEN</string>
-    <string name="hint_input_name">Name</string>
-    <string name="hint_input_email">e-Mail</string>
-    <string name="hint_input_comment">Kommentar</string>
+    <string name="btn_video">Play video</string>
+    <string name="btn_audio">Play audio</string>
 
-    <!--GDPR property -->
-    <string name="publisher_id">pub-3239677...........</string>
-    <string name="privacy_policy_url">
-        https://www.huaweiblog.de/impressum/#datenschutz
-    </string>
+    <!-- youtube -->
+    <string name="video_no_live_title">On a break</string>
+    <string name="video_no_live">No live streams available now</string>
+    <string name="video_live">Select a stream</string>
+    <string name="play_button">Play</string>
 
-    <!--ADS UNIT ID  -->
-    <!--interstitial ad unit id. -->
-    <string name="interstitial_ad_unit_id"></string>
-    <!--banner ad unit id. ca-app-pub-3239677920600357/2323890961 -->
-    <string name="banner_ad_unit_id"></string>
+    <string name="video_share_begin">"I just saw this video: "</string>
+    <string name="video_share_middle">" in the \""</string>
+    <string name="video_share_end">\" app</string>
 
-    <string name="content_heart">Vielen Dank, dass Du diese App unterstützt. Dies ist ein freundliches Hallo vom Vater dieser App. \n\nTeilt diese App und denkt immer daran, gemacht mit ❤ in Düsseldorf.  </string>
+    <string name="video_subtitle_start">"Uploaded "</string>
+    <string name="video_subtitle_end">" by "</string>
+
+    <!--  webview  -->
+    <string name="webview_title">Web</string>
+    <string name="retry">Retry</string>
+    <string name="notification_error_ssl_cert_invalid">The SSL Certificate of the server could not be verified. Would you like to continue?</string>
+
+    <string name="web_share_begin">"Schau was ich gesehen habe \""</string>
+    <string name="web_share_end">"\" app: "</string>
+
+    <!-- favorites -->
+    <string name="item_del_text">Möchtest Du deine Favoriten wirklich komplett löschen?</string>
+    <string name="item_del_confirmation">Ja, bitte löschen</string>
+    <string name="no_favorites">Du kannst Favoriten definieren, wenn Du Artikel öffnest und als \"Favorit\" definierst</string>
+    <string name="favorite_success">Der Artikel wurde hinzugefügt</string>
+    <string name="favorite_duplicate">Der Artikel befindet sich schon in Deinen Favoriten</string>
+    <string name="favorite_menu_delete">Delete</string>
+
+    <!-- settings -->
+    <string name="settings_general_summary">Benutzername und Passwort informationen</string>
+    <string name="settings_general">Allgemein</string>
+
+    <string name="settings_showmenu_summary">Ja/Nein</string>
+    <string name="settings_showmenu">Seitenmenü beim Start anzeigen?</string>
+
+    <string name="settings_fontsize_summary">In welcher Textgröße möchtest Du gerne deine Artikel lesen?</string>
+    <string name="settings_fontsize">Textgröße</string>
+
+    <string name="settings_fontsize_xl">Extra Large</string>
+    <string name="settings_fontsize_l">Large</string>
+    <string name="settings_fontsize_m">Default</string>
+    <string name="settings_fontsize_s">Small</string>
+    <string name="settings_fontsize_xs">Extra Small</string>
+
+    <string name="settings_other_summary">Andere Informationen</string>
+    <string name="settings_other">Andere</string>
+
+    <string name="settings_aboutus_summary">Informationen über die App</string>
+    <string name="settings_aboutus">Über die App</string>
+
+    <string name="settings_notifications_summary">Benachrichtigungen bearbeiten</string>
+    <string name="settings_notifications">Benachrichtigungen</string>
+
+    <string name="settings_licenses_summary">Open-Source Software Lizenzen die genutzt werden</string>
+    <string name="settings_licenses">Open-source Lizenzen</string>
+
+    <string name="settings_rate_summary">Hilf uns und gib eine Bewertung ab</string>
+    <string name="settings_rate">Bewerte diese App</string>
+
+    <string name="settings_version">Version</string>
+
+    <string name="settings_billing_summary">Bearbeite deine In-App Produkte</string>
+    <string name="settings_billing">In-App Produkte</string>
+    <string name="settings_systeminfo_summary">Klicke für weitere Push Informationen</string>
+    <string name="settings_systeminfo">Push Informationen</string>
+
+    <string name="settings_debug_summary">Alle Informationen für die Entwickler</string>
+    <string name="settings_debug">Entwickler Übersicht</string>
+
+    <string name="settings_purchase_summary">Entferne die komplette Werbung und schalte extra Content frei</string>
+    <string name="settings_purchase">Schalte ein Extra Feature frei</string>
+
+    <string name="settings_restore_purchase_success">Deine Käufe wurden wieder hergestellt.</string>
+    <string name="settings_purchase_success">Kauf erfolgreich.</string>
+    <string name="settings_purchase_fail">Kauf fehlgeschlagen.</string>
+
+    <string name="settings_info_head">Informationen zur Nutzung</string>
+    <string name="settings_info_content">Die Kommentarfunktion (Kommentare schreiben) in der App ist deaktiviert. Nutzt bitte die Kommentarfunktion am Blog.</string>
+
+    <string name="dialog_purchase_title">Bereich ist gesperrt.</string>
+    <string name="dialog_purchase">Wenn Du diesen Bereich einsehen möchtest, musst Du die komplette und werbefreie Version einmalig kaufen.\n\nDer Schritt entfernt wie gesagt auch sämtliche Werbung und hilft uns dieses Projekt fortzuführen.</string>
+
+    <!-- Wordpress -->
+    <string name="wordpress_subtitle_start">"Autor: "</string>
+    <string name="wordpress_subtitle_end">" - veröffentlicht "</string>
+    <string name="related">Ähnliche Artikel</string>
+
+    <!-- media viewer and radio-->
+    <string name="volume_low">Turn your volume up!</string>
+    <string name="now_playing">Now playing</string>
+    <string name="toggle_fullscreen">Toggle Fullscreen</string>
+    <string name="notification_playing">Playing audio - Live Stream</string>
+    <string name="audio_notification">Background media playback</string>
+    <string name="error_retry">Failed to connect to stream... </string>
+    <string name="error_retry_later">Please try again in a few seconds... </string>
+    <string name="radio_playing_other">Already playing another station. Press play again to play this station instead.</string>
+
+    <!-- pinterest -->
+    <string name="pin_default_message">Pin</string>
+
+    <!-- tumblr -->
+    <string name="image_descr">Image</string>
+    <string name="set">Set</string>
+    <string name="save">Save</string>
+    <string name="tumblr_share_begin">Check out this post I saw in</string>
+    <string name="saved">Saved at:</string>
+    <string name="set_confirm">Are you sure you would like to set this image as wallpaper?</string>
+    <string name="set_success">You have set a new Wallpaper!</string>
+
+    <!-- SoundCloud -->
+    <string name="duration">%1$d:%2$02d</string>
+    <string name="toast_track_added">Added to the playlist. Touch again to play now.</string>
+    <string name="playback_view_time">%1$02d:%2$02d</string>
+    <string name="play_all">Play all</string>
+
+    <!-- WooCommerce -->
+    <string name="checkout">Checkout</string>
+    <string name="total">Total</string>
+    <string name="cart_success">Added to cart</string>
+    <string name="order_success">Thank you for your order!</string>
+    <string name="order_success_subtitle">We have received your order!</string>
+    <string name="out_of_stock">Out of stock</string>
+    <string name="view_cart">View cart</string>
+    <string name="cart_title">Shopping Cart</string>
+    <string name="cart_failed">We were unable to checkout your items..</string>
+    <string name="category">Category</string>
+    <string name="popular_categories">Popular Categories</string>
+    <string name="latest_products">Latest Products</string>
+    <string name="min_price">Minimum price</string>
+    <string name="max_price">Maximum price</string>
+    <string name="order_by">Sort by:</string>
+    <string name="order_date">Newest</string>
+    <string name="order_popularity">Most popular</string>
+    <string name="order_price">Cheapest</string>
+    <string name="order_rating">Best rated</string>
+    <string name="tag">Tag</string>
+    <string name="weight">Weight</string>
+    <string name="sku">SKU</string>
+    <string name="filter">Filter</string>
+    <string name="tax_notice">Tax included</string>
+    <string name="dimensions">Dimensions</string>
+    <string name="reviews">%2d Rating(s)</string>
+    <string name="no_reviews">No reviews yet</string>
+    <string name="order_items">#%d (%d Items)</string>
+    <string name="order_item">#%d (%s)</string>
+    <string name="no_user">Who are you?</string>
+    <string name="service">Enjoy Free Returns. Up to 2 Years of Warranty. Fast Customer Support. Safe Shopping and Checkout</string>
+    <string name="no_user_subtitle">Login with your store account to view your orders.</string>
+    <string name="no_order">You have no existing orders. Any orders you make while signed in will show up here.</string>
+    <string name="shop">Shop</string>
+    <string name="greeting">Hi %1s!</string>
+    <string name="sale">Sale</string>
+    <string name="featured">Featured</string>
+    <string name="quantity">%2d pcs</string>
+    <string name="quantity_picker">Select quantity</string>
+    <string name="cart_empty_title">Your cart is empty</string>
+    <string name="cart_empty_subtitle">Start shopping to fill your cart with items</string>
+    <string name="review">Reviews</string>
+    <string name="details">Details</string>
+    <string name="description">Description</string>
+    <string name="varations">Options</string>
+    <string name="varations_missing">Something went wrong with loading product variations</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_out_short">Sign out</string>
+    <string name="action_register_short">Register</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_credentials">Your email or password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="action_sign_out_success">You have been signed out</string>
+
+    <!-- Attachment & Media -->
+    <string name="background_audio">Playing audio</string>
+    <string name="download_permission_explaination">In order to download files, you need to grant us permission to your storage.\n\nAfter granting us access, you may go ahead and download the file.</string>
+    <string name="download_permission_grant">Grant permission</string>
+    <string name="download_unavailable">You can not download this content</string>
+    <string name="download_failed">Download failed</string>
+    <string name="download_open_failed">No app to handle file</string>
+    <string name="action_download">Download</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="wallpaper_success">Wallpaper has been set!</string>
+
+    <!-- general-->
+    <string name="settings">Einstellungen</string>
+    <string name="favorites">Favoriten</string>
+    <string name="exit">Beenden</string>
+    <string name="invalid_configuration">Konfiguration kann nicht geladen werden</string>
+    <string name="share_header">Teilen</string>
+    <string name="about_header">Über</string>
+    <string name="information_header">Push-Token</string>
+    <string name="token_text">Bitte teile diese Information mit keinem außer dem HUAWEI.Blog Dev Team!</string>
+    <string name="favorite_button">Favorit</string>
+    <string name="open_button">Öffnen</string>
+    <string name="textview_date">"Datum: "</string>
+    <string name="loading">Laden..</string>
+    <string name="empty_textview">Fehler beim laden</string>
+    <string name="no_results">Keine Resultate</string>
+    <string name="view_mode">Anzeigemodus</string>
+    <string name="view_mode_compact">Compact</string>
+    <string name="view_mode_normal">Normal</string>
+    <string name="view_mode_immersive">Immersive</string>
+    <string name="no_results_subtitle">Nichts zu sehen hier.</string>
+    <string name="yes">Ja</string>
+    <string name="no_app">Keine App, welche die Anfrage verarbeiten kann</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="comments">Kommentare</string>
+    <string name="no_comments">Keine Kommentare verfügbar</string>
+    <string name="share">Teilen</string>
+    <string name="info">Info</string>
+    <string name="refresh">Neu laden</string>
+    <string name="already_loading">Wir laden aktuell schon neuen Content!</string>
+    <string name="intent_failed">Externe App konnte nicht gestartet werden.</string>
+    <string name="search_hint">Suchen</string>
+    <string name="search">Suchen</string>
+
+    <string name="drawer_open">Öffne Menü</string>
+    <string name="drawer_close">Schließe Menü</string>
+
+    <string name="permissions_required">Du musst alle Berechtigungen bestätigen um den Content sehen zu können.</string>
+
+    <!-- Connection dialogs -->
+    <string name="dialog_connection_title">Leider kann die Seite nicht geladen werden!</string>
+    <string name="dialog_connection_description">Wenn Du auf "Lieblingsgeräte" gegangen bist, kannst Du bitte deine Geräte in den Einstellungen prüfen?.\n\nWenn Du auf einer anderen Seite bist, informiere bitte die Entwickler unter dev@huaweiblog.de!</string>
+    <string name="dialog_internet_title">Kein Internet</string>
+    <string name="dialog_internet_description">Es schaut so aus, als ob Du keine Internetverbindung hast!\n\nDu kannst dir allerdings deine offline/Favoriten Posts weiterhin ansehen!</string>
+    <string name="title_activity_woo_commerce_login">Anmelden</string>
+
+    <!-- Content Terms -->
+    <string name="settings_summary_terms">Unsere Terms und Conditions</string>
     <string name="content_term">
         HuaweiBlog.de und auch diese App stehen in keinem Zusammenhang mit der Huawei Technologies Co., Ltd..
         \nWir betreiben hier eine App für Huawei Interessierte. Alle Aussagen und Feststellungen spiegeln ausschließlich die Meinung des Verfassers und nicht von Huawei Technologies Co., Ltd. wieder.
@@ -188,6 +371,6 @@
         \nQuellverweis: eRecht24 Disclaimer
     </string>
 
-    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string-array name="empty_array"/>
 
 </resources>

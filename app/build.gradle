@@ -1,85 +1,112 @@
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
 apply plugin: 'com.android.application'
-apply plugin: 'realm-android'
+apply plugin: 'com.jaredsburrows.license'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'com.huawei.agconnect'
+
+/*
+ * To update licenses, run:
+ * - cd [project location]
+ * - ./gradlew licenseReleaseReport
+ */
+licenseReport {
+    generateHtmlReport = true
+    generateJsonReport = false
+
+    // These options are ignored for Java projects
+    copyHtmlReportToAssets = true
+    copyJsonReportToAssets = false
+}
 
 android {
     compileSdkVersion 30
-
     defaultConfig {
         applicationId "app.huaweiblogplus"
-        minSdkVersion 27
+        minSdkVersion 19
         targetSdkVersion 30
-        versionCode 56
-        versionName "1.7.4.1"
         multiDexEnabled true
+        versionCode 73
+        versionName "8.0.2.3"
+        compileOptions {
+            sourceCompatibility 1.8
+            targetCompatibility 1.8
+        }
+
+        //Optionally configure your OneSignal IDs below
+        manifestPlaceholders = [manifestApplicationId          : "${applicationId}",
+                                onesignal_app_id               : "",
+                                onesignal_google_project_number: ""]
     }
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
-    packagingOptions {
-        exclude 'META-INF/DEPENDENCIES'
-        exclude 'META-INF/LICENSE'
-        exclude 'META-INF/LICENSE.txt'
-        exclude 'META-INF/license.txt'
-        exclude 'META-INF/NOTICE'
-        exclude 'META-INF/NOTICE.txt'
-        exclude 'META-INF/notice.txt'
-        exclude 'META-INF/ASL2.0'
-    }
-
-    lintOptions {
-        checkReleaseBuilds false
-        abortOnError false
+    dexOptions {
+        jumboMode true
     }
 }
 
-configurations {
-    all*.exclude group: 'com.google.guava', module: 'listenablefuture'
+
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    maven {
+        url "https://jitpack.io"
+    }
+    jcenter()
 }
 
-/* IMPORTANT :
- * Be careful when update dependencies, different version library may caused error */
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    testImplementation 'junit:junit:4.13'
-    // google library
-    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.devbrackets.android:exomedia:4.3.0' //TV
+    implementation 'com.google.android.exoplayer:exoplayer:2.9.6' //TV & Radio
+    implementation 'com.cleveroad:audiovisualization:1.0.1' //Radio
+    implementation 'com.google.code.gson:gson:2.8.5' //WC
+    implementation 'com.squareup.okhttp3:okhttp:3.7.0' //WC
+    implementation 'org.jsoup:jsoup:1.8.3'
+    implementation 'com.onesignal:OneSignal:3.15.4'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.duolingo.open:rtl-viewpager:1.0.2'
+    implementation 'com.github.chrisbanes:PhotoView:1.3.0'
+    implementation 'com.anjlab.android.iab.v3:library:1.0.44'
+    implementation 'com.github.ed-george:AndroidVimeoExtractor:1.2.1'
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.multidex:multidex-instrumentation:2.0.0'
+    implementation 'androidx.exifinterface:exifinterface:1.0.0'
     implementation 'androidx.cardview:cardview:1.0.0'
-    implementation 'androidx.recyclerview:recyclerview:1.1.0'
-    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.legacy:legacy-support-core-utils:1.0.0'
+    implementation 'androidx.media:media:1.1.0'
 
-    implementation 'com.google.firebase:firebase-core:17.5.0'
-    implementation 'com.google.firebase:firebase-messaging:20.3.0'
-    implementation 'com.google.android.gms:play-services-ads:19.4.0'
-    implementation 'com.google.android.gms:play-services-analytics:17.0.0'
-    implementation 'com.google.android.ads.consent:consent-library:1.0.8'
+    implementation 'com.google.maps.android:android-maps-utils:0.5'
 
-    implementation 'androidx.cardview:cardview:1.0.0'
-    implementation 'androidx.recyclerview:recyclerview:1.1.0'
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'com.squareup.picasso:picasso:2.71828'
-    implementation 'com.google.apis:google-api-services-youtube:v3-rev182-1.22.0'
-    implementation 'com.google.http-client:google-http-client-android:1.35.0'
-    implementation 'com.google.api-client:google-api-client-android:1.30.9'
-    implementation 'com.google.api-client:google-api-client-gson:1.30.9'
+    implementation 'com.google.android.gms:play-services-ads:19.0.1'
+    implementation "com.google.android.gms:play-services-maps:17.0.0"
+    implementation 'com.google.android.material:material:1.1.0'
 
-    implementation 'com.google.apis:google-api-services-youtube:v3-rev206-1.25.0'
-    //implementation group: 'commons-io', name: 'commons-io', version: '2.4'
+    implementation 'com.google.firebase:firebase-ads:19.0.1'
+    implementation 'com.google.firebase:firebase-analytics:17.3.0'
+    implementation 'com.google.firebase:firebase-crashlytics:17.0.1'
+    implementation 'com.google.firebase:firebase-messaging:20.1.5'
 
-    implementation 'com.squareup.okhttp3:okhttp:4.6.0'
-    implementation 'com.squareup.okhttp3:logging-interceptor:4.6.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.2.0'
-    implementation 'com.squareup.picasso:picasso:2.71828'
+    // HUAWEI HMS 5.0
+    implementation 'com.huawei.agconnect:agconnect-core:1.4.0.300'
+    implementation 'com.huawei.hms:push:5.0.1.300'
 
-    // ripple effect library
-    implementation 'com.balysv:material-ripple:1.0.2'
+    // Youtube by PierFrancescoSoffritti
+    implementation 'com.github.PierfrancescoSoffritti:AndroidYouTubePlayer:2.0.0'
 
-    // ChromeTabs
-    implementation 'androidx.browser:browser:1.2.0'
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
+    implementation 'androidx.fragment:fragment:1.1.0'
 
+    // Backport multiplelist
+    implementation 'com.h6ah4i.android.compat:mulsellistprefcompat:1.0.0'
 }
-
-apply plugin: 'com.google.gms.google-services'
