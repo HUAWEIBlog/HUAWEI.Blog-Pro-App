@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferenceScreen">
+    <PreferenceCategory
+        android:key="general"
+        android:summary="@string/settings_general_summary"
+        android:title="@string/settings_general">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="menuOpenOnStart"
+            android:summary="@string/settings_showmenu_summary"
+            android:title="@string/settings_showmenu" />
+        <ListPreference
+            android:defaultValue="16"
+            android:entries="@array/fontentries"
+            android:entryValues="@array/fontvalues"
+            android:key="fontSize"
+            android:summary="@string/settings_fontsize_summary"
+            android:title="@string/settings_fontsize" />
+        <Preference
+            android:key="notifications"
+            android:summary="@string/settings_notifications_summary"
+            android:title="@string/settings_notifications" />
+        <ListPreference
+            android:key="themePref"
+            android:title="@string/settings_theme_title"
+            android:defaultValue="Systemstandard"
+            android:dialogTitle="@string/settings_theme_title"
+            android:entries="@array/themeListArray"
+            android:summary="@string/settings_device_summary"
+            android:entryValues="@array/themeEntryArray"/>
+
+
+        <com.h6ah4i.android.compat.preference.MultiSelectListPreferenceCompat
+            android:dialogTitle="@string/settings_device_dialog_title"
+            android:entries="@array/settings_list_devices_titles"
+            android:entryValues="@array/settings_list_devices_values"
+            android:key="listDevices"
+            android:defaultValue="@array/empty_array"
+            android:summary="@string/settings_device_summary"
+            android:title="@string/settings_device_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="other"
+        android:summary="@string/settings_other_summary"
+        android:title="@string/settings_other">
+        <Preference
+            android:key="about"
+            android:summary="@string/settings_aboutus_summary"
+            android:title="@string/settings_aboutus" />
+        <Preference
+            android:summary="@string/developer_email"
+            android:title="@string/pref_title_dev_email" />
+        <Preference
+            android:key="term"
+            android:summary="@string/settings_summary_terms"
+            android:title="@string/pref_title_term" />
+        <!--<Preference
+            android:key="licenses"
+            android:summary="@string/settings_licenses_summary"
+            android:title="@string/settings_licenses" />-->
+        <Preference
+            android:key="rate"
+            android:summary="@string/settings_rate_summary"
+            android:title="@string/settings_rate" />
+        <Preference
+            android:key="version"
+            android:summary="@string/empty_textview"
+            android:title="@string/settings_version" />
+        <Preference
+            android:key="information"
+            android:summary="@string/settings_info_content"
+            android:title="@string/settings_info_head" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="debug"
+        android:summary="@string/settings_debug_summary"
+        android:title="@string/settings_debug">
+        <Preference
+            android:key="systeminfo"
+            android:summary="@string/settings_systeminfo_summary"
+            android:title="@string/settings_systeminfo" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="billing"
+        android:summary="@string/settings_billing_summary"
+        android:title="@string/settings_billing">
+        <Preference
+            android:key="purchase"
+            android:summary="@string/settings_purchase_summary"
+            android:title="@string/settings_purchase" />
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <Preference
+            android:key="@string/pref_title_heart"
+            android:gravity="center"
+            android:summary="@string/pref_title_heart" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

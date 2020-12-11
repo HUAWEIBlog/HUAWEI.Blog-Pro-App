@@ -1,48 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:spinnerStyle">@style/Widget.AppCompat.Spinner.Underlined</item>
-        <item name="android:spinnerDropDownItemStyle">@style/Widget.AppCompat.TextView.SpinnerItem
-        </item>
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/myPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/myPrimaryDarkColor</item>
+        <item name="colorAccent">@color/myAccentColor</item>
+        <item name="android:textColorPrimary">@color/myTextPrimaryColor</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:windowBackground">@color/myWindowBackground</item>
+
+        <item name="toolbarForeground">@color/white</item>
+        <item name="toolbarBackground">@color/myPrimaryColor</item>
         <item name="android:forceDarkAllowed">true</item>
     </style>
 
-    <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
+    <style name="AppTheme.BaseLight" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/myPrimaryDarkColor</item>
+        <item name="toolbarForeground">@color/white</item>
+        <item name="toolbarBackground">@color/myPrimaryDarkColor</item>
         <item name="android:forceDarkAllowed">true</item>
     </style>
 
     <style name="AppThemeSetting" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/myPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/myPrimaryDarkColor</item>
+        <item name="colorAccent">@color/myAccentColor</item>
         <item name="android:spinnerStyle">@style/Widget.AppCompat.Spinner.Underlined</item>
         <item name="android:spinnerDropDownItemStyle">@style/Widget.AppCompat.TextView.SpinnerItem
         </item>
         <item name="android:forceDarkAllowed">true</item>
     </style>
 
-    <style name="AppThemeDialog" parent="Theme.AppCompat.Light.Dialog">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <style name="AppTheme" parent="BaseAppTheme">
         <item name="android:forceDarkAllowed">true</item>
     </style>
 
-    <style name="AppThemeYouTube" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="android:spinnerStyle">@style/Widget.AppCompat.Spinner.Underlined</item>
-        <item name="android:spinnerDropDownItemStyle">@style/Widget.AppCompat.TextView.SpinnerItem
-        </item>
+    <style name="AppTheme.Light" parent="AppTheme.BaseLight">
+        <item name="android:forceDarkAllowed">true</item>
+    </style>
+
+    <style name="AppTheme.Launcher" parent="BaseAppTheme">
+        <item name="android:windowBackgroundFallback">@color/white</item>
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="colorPrimaryDark">@color/myPrimaryDarkColor</item>
+        <item name="android:forceDarkAllowed">true</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">?toolbarForeground</item><!-- Changed -->
+        <item name="android:forceDarkAllowed">true</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="">
+        <item name="android:theme">@style/Toolbar</item>
+        <item name="android:background">?toolbarBackground</item>
+        <item name="android:forceDarkAllowed">true</item>
+    </style>
+
+    <style name="Toolbar" parent="Base.ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">?toolbarForeground</item><!-- Changed -->
+        <item name="android:textColorSecondary">?toolbarForeground</item><!-- Changed -->
+        <item name="titleTextAppearance">@style/Toolbar_Title</item>
+        <item name="android:forceDarkAllowed">true</item>
+    </style>
+
+    <style name="Toolbar_Popup" parent="Base.ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="android:textColorSecondary">@color/extra_light_gray</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:forceDarkAllowed">true</item>
+    </style>
+
+    <style name="Toolbar_Title" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:forceDarkAllowed">true</item>
+    </style>
+
+    <style name="listStyleNoPadding">
+        <item name="android:clipToPadding">false</item>
+        <item name="android:listSelector">@android:color/transparent</item>
         <item name="android:forceDarkAllowed">true</item>
     </style>
 </resources>

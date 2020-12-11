@@ -1,52 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="nav_header_vertical_spacing">10dp</dimen>
-    <dimen name="nav_header_height">180dp</dimen>
-    <dimen name="fab_margin">16dp</dimen>
 
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="spacing_small">3dp</dimen>
-    <dimen name="spacing_xsmall">2dp</dimen>
-    <dimen name="spacing_medium">4dp</dimen>
-    <dimen name="spacing_middle">10dp</dimen>
-    <dimen name="spacing_large">16dp</dimen>
-    <dimen name="spacing_mlarge">20dp</dimen>
-    <dimen name="spacing_mxlarge">25dp</dimen>
-    <dimen name="spacing_xlarge">32dp</dimen>
-    <dimen name="spacing_xxlarge">40dp</dimen>
+    <!-- App Bars -->
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="bottombar_elevation">16dp</dimen>
 
-    <dimen name="elevation_low">9dp</dimen>
-    <dimen name="elevation_high">12dp</dimen>
-    <dimen name="status_bar_height">25dp</dimen>
+    <!-- preferenceFragment -->
+    <dimen name="preference_fragment_padding_bottom">0dp</dimen>
+    <dimen name="preference_fragment_padding_side">16dp</dimen>
+    <integer name="preference_fragment_scrollbarStyle">0x02000000</integer>
 
-    <dimen name="news_header_size">220dp</dimen>
-    <dimen name="news_header_details_size">240dp</dimen>
-    <dimen name="page_header_details_size">200dp</dimen>
+    <!-- Defaults -->
+    <dimen name="activity_horizontal_margin">6dp</dimen>
+    <dimen name="activity_detail_horizontal_margin">17dp</dimen>
+    <dimen name="activity_vertical_margin">6dp</dimen>
 
-    <dimen name="news_row_img">100dp</dimen>
-    <dimen name="page_row_img">80dp</dimen>
+    <bool name="isTablet">false</bool>
+    <bool name="isWideTablet">false</bool>
 
-    <dimen name="no_item_img_size">90dp</dimen>
-    <dimen name="btn_fab_size">56dp</dimen>
+    <dimen name="highlight_height">200dp</dimen>
 
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="item_offset">10dp</dimen>
-    <dimen name="detail_backdrop_height">250dp</dimen>
-    <dimen name="backdrop_title">30dp</dimen>
-    <dimen name="backdrop_subtitle">18dp</dimen>
-    <dimen name="card_margin">5dp</dimen>
-    <dimen name="card_album_radius">0dp</dimen>
-    <dimen name="album_cover_height">160dp</dimen>
-    <dimen name="album_title_padding">10dp</dimen>
-    <dimen name="album_title">15dp</dimen>
-    <dimen name="songs_count_padding_bottom">5dp</dimen>
-    <dimen name="songs_count">12dp</dimen>
-    <dimen name="ic_album_overflow_width">20dp</dimen>
-    <dimen name="ic_album_overflow_height">30dp</dimen>
-    <dimen name="ic_album_overflow_margin_top">10dp</dimen>
+    <!-- Spacing -->
+    <dimen name="spacing_xxs">2dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_s">6dp</dimen>
+    <dimen name="spacing_m">8dp</dimen>
+    <dimen name="spacing_l">12dp</dimen>
+    <dimen name="spacing_xl">16dp</dimen>
+    <dimen name="spacing_xxl">18dp</dimen>
 
+    <dimen name="textsize_xxs">10sp</dimen>
+    <dimen name="textsize_xs">12sp</dimen>
+    <dimen name="textsize_s">14sp</dimen>
+    <dimen name="textsize_m">16sp</dimen>
+    <dimen name="textsize_l">18sp</dimen>
+    <dimen name="textsize_xl">20sp</dimen>
+    <dimen name="textsize_xxl">25sp</dimen>
+
+    <!-- DetailLayouts -->
+    <dimen name="detail_margin">0dp</dimen>
+    <dimen name="image_height_wordpress">250dp</dimen>
+    <dimen name="image_height_youtube">200dp</dimen>
+
+    <!-- Drawer -->
+    <dimen name="drawer_width">304dp</dimen>
+
+    <!-- WooCommerce -->
+    <dimen name="woocommerce_category_width">150dp</dimen>
+    <dimen name="woocommerce_category_height">100dp</dimen>
+    <dimen name="woocommerce_padding">4dp</dimen>
+    <dimen name="woocommerce_related_product_width">200dp</dimen>
+
+    <!-- SoundCloud !-->
+    <dimen name="playback_view_height">150dp</dimen>
+    <dimen name="default_padding">8dp</dimen>
+
+    <dimen name="simple_sound_cloud_notification_title">18sp</dimen>
+    <dimen name="simple_sound_cloud_notification_subtitle">14sp</dimen>
+    <dimen name="simple_sound_cloud_notification_icon">64dp</dimen>
+    <dimen name="simple_sound_cloud_notification_padding">8dp</dimen>
+
+    <!-- (Overview) Card -->
+    <dimen name="card_image_height">160dp</dimen>
+    <dimen name="card_text_height">140dp</dimen>
+    <dimen name="card_width_overview">240dp</dimen>
+
+    <!-- Attachment pager -->
+    <dimen name="thumbnail_height">32dp</dimen>
+
+    <!-- Images (Tumblr/Flickr) -->
+    <dimen name="card_width_image">160dp</dimen>
+
+    <!-- Wordpress -->
+    <dimen name="thumbnail_size">85dp</dimen>
+    <dimen name="thumbnail_radius">@dimen/spacing_l</dimen>
 
 </resources>
