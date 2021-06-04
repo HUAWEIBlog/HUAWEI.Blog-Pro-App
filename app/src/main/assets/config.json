@@ -306,54 +306,6 @@
     ]
   },
   {
-    "title":"Facebook",
-    "drawable":"ic_nav_facebook",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"HUAWEI Gruppe",
-        "provider":"facebook",
-        "arguments":[
-          "673677122755010",
-          "EAAyE7jzZCz00BADgco1xX4OE7YXfDZBXv7ikIoeB0oacf4sZALigxHJccaFgTZCy0WoSZBXuUCZBQyAtlICcuyKtVXqxEZAnx5XldlABCAaNsG1mE8gzTSb99GA6ZBIsAX1jSxJw5zm1BRPcUZAxIP7kxJQQBK7LIEBWJws0MRwWs6bp3aasleNAA"
-        ]
-      },
-      {
-        "title":"HUAWEI Foto Galerie",
-        "provider":"facebook",
-        "arguments":[
-          "1349964841796768",
-          "EAAyE7jzZCz00BADgco1xX4OE7YXfDZBXv7ikIoeB0oacf4sZALigxHJccaFgTZCy0WoSZBXuUCZBQyAtlICcuyKtVXqxEZAnx5XldlABCAaNsG1mE8gzTSb99GA6ZBIsAX1jSxJw5zm1BRPcUZAxIP7kxJQQBK7LIEBWJws0MRwWs6bp3aasleNAA"
-        ]
-      },
-      {
-        "title":"HUAWEI EMUI Designs",
-        "provider":"facebook",
-        "arguments":[
-          "567531030091407",
-          "EAAyE7jzZCz00BADgco1xX4OE7YXfDZBXv7ikIoeB0oacf4sZALigxHJccaFgTZCy0WoSZBXuUCZBQyAtlICcuyKtVXqxEZAnx5XldlABCAaNsG1mE8gzTSb99GA6ZBIsAX1jSxJw5zm1BRPcUZAxIP7kxJQQBK7LIEBWJws0MRwWs6bp3aasleNAA"
-        ]
-      },
-      {
-        "title":"HUAWEI Kaufen & Verkaufen",
-        "provider":"facebook",
-        "arguments":[
-          "2009982639238417",
-          "EAAyE7jzZCz00BADgco1xX4OE7YXfDZBXv7ikIoeB0oacf4sZALigxHJccaFgTZCy0WoSZBXuUCZBQyAtlICcuyKtVXqxEZAnx5XldlABCAaNsG1mE8gzTSb99GA6ZBIsAX1jSxJw5zm1BRPcUZAxIP7kxJQQBK7LIEBWJws0MRwWs6bp3aasleNAA"
-        ]
-      },
-      {
-        "title":"HUAWEI Kaufberatung/Vergleiche",
-        "provider":"facebook",
-        "arguments":[
-          "2697198710301629",
-          "EAAyE7jzZCz00BADgco1xX4OE7YXfDZBXv7ikIoeB0oacf4sZALigxHJccaFgTZCy0WoSZBXuUCZBQyAtlICcuyKtVXqxEZAnx5XldlABCAaNsG1mE8gzTSb99GA6ZBIsAX1jSxJw5zm1BRPcUZAxIP7kxJQQBK7LIEBWJws0MRwWs6bp3aasleNAA"
-        ]
-      }
-    ]
-  },
-  {
     "title":"Instagram",
     "drawable":"ic_nav_instagram",
     "submenu":"Social Media",
