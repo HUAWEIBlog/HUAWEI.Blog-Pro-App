@@ -28,6 +28,12 @@
 
     <string-array name="settings_list_devices_titles">
         <item> - - SMARTPHONES - - </item>
+        <item>P50 Pro+</item>
+        <item>P50 Pro</item>
+        <item>P50</item>
+        <item>Mate 40 Pro</item>
+        <item>Mate 40</item>
+        <item>P Smart 2021</item>
         <item>P40 Pro+</item>
         <item>P40 Pro</item>
         <item>P40</item>
@@ -72,6 +78,8 @@
         <item>P9 Lite</item>
         <item>Mate S</item>
         <item> - - TABLETS - - </item>
+        <item>MatePad Pro 12.6</item>
+        <item>MatePad 11</item>
         <item>MatePad Pro</item>
         <item>MateBook E 2019</item>
         <item>MateBook X Pro</item>
@@ -84,6 +92,8 @@
         <item>MediaPad M3</item>
         <item>MediaPad X2</item>
         <item> - - WEARABLES - - </item>
+        <item>Watch 3 Pro</item>
+        <item>Watch 3</item>
         <item>Watch GT 2 Pro</item>
         <item>Watch GT2e</item>
         <item>Watch GT 2</item>
@@ -93,10 +103,19 @@
         <item>Fit</item>
         <item>Band 2 Pro</item>
         <item>TalkBand B3</item>
+        <item> - - Monitors - - </item>
+        <item>MateView GT</item>
+        <item>MateView</item>
 
     </string-array>
     <string-array name="settings_list_devices_values">
         <item>1602</item> <!-- Spacer Smartphones -->
+        <item>1881</item> <!-- P50 Pro+ -->
+        <item>1854</item> <!-- P50 Pro -->
+        <item>1880</item> <!-- P50 -->
+        <item>1735</item> <!-- Mate 40 Pro -->
+        <item>1734</item> <!-- Mate 40 -->
+        <item>1726</item> <!-- P Smart 2021 -->
         <item>1602</item> <!-- P40 Pro+ -->
         <item>1597</item> <!-- P40 Pro -->
         <item>1546</item> <!-- P40-->
@@ -141,6 +160,8 @@
         <item>900</item> <!-- P9 Lite -->
         <item>745</item> <!-- Mate S -->
         <item>1439</item> <!-- Spacer Tablets-->
+        <item>1883</item> <!-- MatePad Pro 12.6 -->
+        <item>1882</item> <!-- MatePad 11 -->
         <item>1530</item> <!-- MatePad Pro -->
         <item>1439</item> <!-- MateBook E 2019 -->
         <item>1215</item> <!-- MateBook X Pro -->
@@ -153,6 +174,8 @@
         <item>1079</item> <!-- MediaPad M3 -->
         <item>706</item> <!-- MediaPad X2 -->
         <item>1699</item> <!-- Spacer Watches-->
+        <item>1876</item> <!-- Watch 3 Pro -->
+        <item>1875</item> <!-- Watch 3 -->
         <item>1699</item> <!-- Watch GT 2 Pro -->
         <item>1595</item> <!-- Watch GT 2e -->
         <item>1513</item> <!-- Watch GT 2 -->
@@ -162,5 +185,8 @@
         <item>1698</item> <!-- Fit -->
         <item>1147</item> <!-- Band 2 Pro -->
         <item>1057</item> <!-- TalkBand B3 -->
+        <item>1057</item> <!-- Spacer Monitors -->
+        <item>1878</item> <!-- MateView GT -->
+        <item>1857</item> <!-- MateView -->
     </string-array>
 </resources>
